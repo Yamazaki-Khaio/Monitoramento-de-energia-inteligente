@@ -1,27 +1,16 @@
 import socket
 
+HOST = '127.0.0.1'
+PORT = 9000
 
-class Servidor():
-    def __int__(self, host, port):
-        self.__host = host
-        self.__port = port
-
-    def start(self):
-        self.__tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        endpoint = self.__host,self.__port
-        try:
-            self.__tcp.bind(endpoint)
-            self.__tcp.listen()
-            print("Servidor iniciado em %s e porta : %s",self.__host, self.__port)
-            while True:
-                con, client = self.__tcp.accept()
-                self._service(con,client)
-        except Exception as e:
-            print("Erro ao inicializar o servidor", e.args)
-
-
-    def _service(self, con, client):
-        print("Gerar os dados do medidor")
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.bind((HOST, PORT))
+    s.listen()
+    conn, client = s.accept()
+    with conn:
+        print(f"Conectado por {client}")
         while True:
-            msg = con.recv(1024)
-            msg_s = str(msg.decode('ascii'))
+            data = conn.recv(1024)
+            if not data:
+                break
+            conn.sendall(data)
