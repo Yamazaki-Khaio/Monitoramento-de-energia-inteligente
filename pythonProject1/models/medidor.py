@@ -17,16 +17,14 @@ def main():
         c.send(b'energy_meter_value')
         c.close()
 
-
+#armazenar as informações do medidor
 def insert_energy_meter_value(id, value, timestamp):
     write_database(id, value, timestamp)
-
-
 
 def get_energy_meter_value(id):
     read_database(id)
 
-
+#método para atualizar o valor da energia medida no json
 def update_energy_meter_value(id, value):
     timestamp = int(time.time())
     insert_energy_meter_value(id, value, timestamp)
