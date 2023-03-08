@@ -1,13 +1,14 @@
 import socket
+import sqlite3
 import sys
 from threading import Thread
 import json
 import os
-
+import time
 HOST = "127.0.0.1"
 PORT = 5000
 MAX_BUFFER_SIZE = 1024
-
+energy_readings = {}
 
 def main():
     initialize_database()
@@ -40,7 +41,7 @@ def write_database(storage_file):
 # Criar headers
 def create_headers(status_code: int, status_text: str, message_body=""):
     # headers
-    response_protocol = "HTTP/1.2"
+    response_protocol = "HTTP/1.1"
     response_status_code = status_code
     response_status_text = status_text
     response_content_type = "application/json; encoding=utf8"
@@ -92,6 +93,7 @@ def start_server():
 
         # Aguardar e aceitar a conexão de entrada
         (client_socket, address) = server_socket.accept()
+
         ip, port = str(address[0]), str(address[1])
         print(f"A conexão do {ip}:{port} foi estabelecida.")
 
@@ -100,6 +102,12 @@ def start_server():
             print(f"Client thread com o {ip}:{port} foi criado.")
         except:
             print(f"Client thread com {ip}:{port} não deu start.")
+
+
+
+
+def get_energy():
+    return 10.0
 
 
 # Thread para cada cliente
@@ -123,6 +131,8 @@ def client_thread(client_socket, ip, port):
             response_headers = do_DELETE(data)
 
         client_socket.send(response_headers)
+        energy = get_energy()
+        client_socket.sendall(str(energy).encode())
         client_socket.close()
         print(f"Conexão do {ip}:{port} foi fechada.")
 

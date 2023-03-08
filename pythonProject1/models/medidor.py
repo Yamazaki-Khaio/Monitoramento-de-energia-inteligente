@@ -1,41 +1,35 @@
-import json
 import socket
 import time
 
-from models.servidor import write_database, read_database
+# Endereço IP e porta do servidor
+IP = "127.0.0.1"
+PORTA = 5000
 
+# Cria o objeto socket
+cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-def main():
-    host = '0.0.0.0'
-    port = 5000
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind((host, port))
-    s.listen(1)
+# Conecta ao servidor
+cliente.connect((IP, PORTA))
+
+def incrementar_automatico(valor_inicial, incremento=1):
+    valor = valor_inicial
+
     while True:
-        c, addr = s.accept()
-        print('Obeteve conexão de', addr)
-        c.send(b'energy_meter_value')
-        c.close()
-
-#armazenar as informações do medidor
-def insert_energy_meter_value(id, value, timestamp):
-    write_database(id, value, timestamp)
-
-def get_energy_meter_value(id):
-    read_database(id)
-
-#método para atualizar o valor da energia medida no json
-def update_energy_meter_value(id, value):
-    timestamp = int(time.time())
-    insert_energy_meter_value(id, value, timestamp)
+        yield valor
+        valor += incremento
 
 
-def handle_client_connection(client_socket, id):
-    request = client_socket.recv(1024)
-    value = get_energy_meter_value(id)
-    client_socket.send(str(value).encode())
-    update_energy_meter_value(id, value)
+# Configura o sensor de energia para medir a energia em tempo real
+energia = incrementar_automatico(10, 2)
+while True:
+    energy_actual = next(energia)
+    print("kWh: {}".format(energy_actual))
 
+    # Envia os dados de energia medidos para o servidor
+    cliente.send(str(energy_actual).encode())
 
-if __name__ == '__main__':
-    main()
+    # Aguarda um segundo antes de medir novamente
+    time.sleep(1)
+
+# Fecha a conexão
+cliente.close()
