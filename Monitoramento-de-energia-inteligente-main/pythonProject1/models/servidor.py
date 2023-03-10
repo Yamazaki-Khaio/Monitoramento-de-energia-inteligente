@@ -1,14 +1,12 @@
 import socket
-import sqlite3
 import sys
 from threading import Thread
 import json
 import os
-import time
 HOST = "127.0.0.1"
 PORT = 5000
 MAX_BUFFER_SIZE = 1024
-energy_readings = {}
+database = {}
 
 def main():
     initialize_database()
@@ -25,11 +23,22 @@ def initialize_database():
 
 # Ler conteúdo do arquivo json
 def read_database():
-    # Read database file
-    with open("db.json", "r") as db:
-        storage_file = json.load(db)
-
-    return storage_file
+    try:
+        with open('database.json', 'r') as db:
+            storage_file = db.read()
+            if storage_file.strip() == "":
+                # arquivo vazio
+                return {}
+            else:
+                storage_data = json.loads(storage_file)
+                if not isinstance(storage_data, dict):
+                    # conteúdo inválido
+                    return {}
+                else:
+                    return storage_data
+    except FileNotFoundError:
+        # arquivo não encontrado
+        return {}
 
 
 # Escrever conteúdo no arquivo json
@@ -105,11 +114,6 @@ def start_server():
 
 
 
-
-def get_energy():
-    return 10.0
-
-
 # Thread para cada cliente
 def client_thread(client_socket, ip, port):
     # Listen dos dados recebidos
@@ -134,8 +138,7 @@ def client_thread(client_socket, ip, port):
         if response_headers is not None:
             client_socket.send(response_headers)
 
-        energy = get_energy()
-        client_socket.sendall(str(energy).encode())
+
         client_socket.close()
         print(f"Conexão do {ip}:{port} foi fechada.")
 
@@ -173,7 +176,7 @@ def do_GET(data: list):
 
     if content in storage_data:
         value = storage_data.get(content)
-        return create_headers(200, "OK", value)
+        return create_headers(200, value, "OK")
     else:
         return create_headers(404, "Not Found")
 
@@ -193,22 +196,34 @@ def do_POST(data: list):
         write_database(storage_data)
         return create_headers(201, "Created")
 
-
 # Processo de solicitação do tipo PUT
 def do_PUT(data: list):
     content = get_content(data)
-    if content == None:
+    if content is None:
         return create_headers(400, "Bad Request")
+
+    try:
+        content_dict = json.loads(content)
+    except json.JSONDecodeError:
+        return create_headers(400, "Invalid JSON")
+
+    if not isinstance(content_dict, dict):
+        return create_headers(400, "Invalid Data")
+
+    content_key = next(iter(content_dict), None)
+
+    if not isinstance(content_key, str):
+        return create_headers(400, "Invalid Data")
 
     storage_data = read_database()
 
-    content_dict = json.loads(content)
-    content_key = list(content_dict.keys())[0]
-
     if content_key in storage_data:
-        storage_data.update(content_dict)
-        write_database(storage_data)
-        return create_headers(200, "OK")
+        try:
+            storage_data.update(content_dict)
+            write_database(storage_data)
+            return create_headers(200, "OK")
+        except Exception as e:
+            return create_headers(500, str(e))
     else:
         return create_headers(404, "Not Found")
 

@@ -1,5 +1,8 @@
 {
-    "12212}": "",
-    "1221}": "",
-    "}": ""
+    "5c6621f1-bf4e-11ed-89ef-001a7dda7112": {
+        "Data e Hora": "2023-03-10 11:18:02",
+        "cliente_id": "cliente001",
+        "consumo kWh": 2.94,
+        "medidor_id": "medidor001"
+    }
 }
