@@ -4,6 +4,8 @@ import socket
 import time
 import uuid
 
+import requests
+
 from models.servidor import database, write_database, read_database
 
 IP = "127.0.0.1"
@@ -22,14 +24,9 @@ incremento = 2
 valor_atual = valor_inicial
 CONSUMO_MIN = 1  # Consumo mínimo em kWh
 CONSUMO_MAX = 10  # Consumo máximo em kWh
-bool = True
-
-
+url = f"http://127.0.0.1:5000/medidor/{client_id}"
+http_request = f"POST / HTTP/1.1\r\nHost: {IP}:{PORTA}\r\n\r\n".encode()
 while True:
-    # Cria um socket e conecta ao servidor
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect((IP, PORTA))
-
     # Obtém a data e hora atual
     data_hora_atual = time.strftime("%Y-%m-%d %H:%M:%S")
     consumo = round(random.uniform(CONSUMO_MIN, CONSUMO_MAX), 2)
@@ -38,34 +35,35 @@ while True:
     payload = {
         'medidor_id': MEDIDOR_ID,
         'cliente_id': CLIENTE_ID,
-        'consumo kWh': consumo,
-        'Data e Hora': data_hora_atual
-
+        'consumo_kWh': consumo,
+        'data_hora': data_hora_atual
     }
 
     # Converte o payload em uma string JSON
-    message = json.dumps(payload)
+    #message = json.dumps(payload)
+    response = requests.post(url, json=payload)
 
-    # Envia a mensagem para o servidor
-    try:
-        sock.sendall(message.encode())
-    except ConnectionAbortedError as e:
-        print(f"Erro ao enviar mensagem: {e}")
-        sock.close()
-        continue
 
-    # Recebe a resposta do servidor
-    data = sock.recv(1024)
+        # Recebe a resposta do servidor
+    #data = sock.recv(1024)
 
-    # Fecha a conexão com o servidor
-    sock.close()
-
-    # Armazena os dados do medidor no banco de dados
     storage_data = read_database()
-    storage_data[str(client_id)] = payload
+    # Verifica se o client_id já existe no arquivo JSON
+    if client_id in storage_data:
+        # Adiciona as informações do medidor às informações existentes do cliente
+        storage_data[str(client_id)]['medidores'].append(payload)
+    else:
+        # Cria um novo registro para o cliente com as informações do medidor
+        storage_data[str(client_id)] = {
+            'medidores': [payload]
+        }
+
+    # Salva as informações atualizadas no arquivo JSON
     write_database(storage_data)
 
     # Incrementa o valor atual de energia medido
+
+
     valor_atual += incremento
 
     # Aguarda um segundo antes de medir novamente

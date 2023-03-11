@@ -7,6 +7,7 @@ HOST = "127.0.0.1"
 PORT = 5000
 MAX_BUFFER_SIZE = 1024
 database = {}
+body = None
 
 def main():
     initialize_database()
@@ -24,7 +25,7 @@ def initialize_database():
 # Ler conteúdo do arquivo json
 def read_database():
     try:
-        with open('database.json', 'r') as db:
+        with open('db.json', 'r') as db:
             storage_file = db.read()
             if storage_file.strip() == "":
                 # arquivo vazio
@@ -47,40 +48,37 @@ def write_database(storage_file):
         json.dump(storage_file, file, indent=4, sort_keys=True)
 
 
-# Criar headers
-def create_headers(status_code: int, status_text: str, message_body=""):
+def create_headers(status_code: int, status_text: str, message_body="") -> bytes:
+    global body
     # headers
     response_protocol = "HTTP/1.1"
     response_status_code = status_code
     response_status_text = status_text
     response_content_type = "application/json; encoding=utf8"
     response_connection = "close"
-    response_content_length = str(len(message_body.encode('utf-8')))
+    message_body_bytes = message_body.encode('utf-8') if message_body else body.encode('utf-8') if body else b''
+    response_content_length = len(message_body_bytes)
 
     # Create seções
-    status_line = (
-        f"{response_protocol} {response_status_code} {response_status_text}\r\n"
-    )
+    status_line = f"{response_protocol} {response_status_code} {response_status_text}\r\n"
     connection = f"Connection: {response_connection}\r\n"
     content_type = f"Content-Type: {response_content_type}\r\n"
-    content_length = f"Content-Length:  {response_content_length}\r\n"
-    empty_line = f"\r\n"
+    content_length = f"Content-Length: {response_content_length}\r\n"
+    empty_line = "\r\n"
 
-    #Concatenar string
+    # Concatenar string
     response_header = (
-            status_line +
-            connection +
-            content_type +
-            content_length +
-            empty_line +
-            message_body
+        status_line +
+        connection +
+        content_type +
+        content_length +
+        empty_line
     )
 
-    # Encode string para utf-8 bytes
-    response_header_encoded = response_header.encode("utf-8")
+    # Concatenar header e corpo da mensagem
+    response = response_header.encode('utf-8') + message_body_bytes
 
-    return response_header_encoded
-
+    return response
 
 # Cria & start server socket
 def start_server():
@@ -147,43 +145,57 @@ def client_thread(client_socket, ip, port):
 
 # Get entrada solicitada
 def get_content(data: list):
-    # verifica o tamanho da entrada
-    if "Content-Length:" in data:
-        con_len_index = data.index("Content-Length:")
-        con_len_value = data[con_len_index + 1]
+    content = None
 
+    # procurar a entrada solicitada
+    for line in data:
+        if line.startswith("GET "):
+            content = line.split()[1]
+            break
 
-        if con_len_value == "0":
-            return None
-    else:
+    # verificar se a entrada foi encontrada
+    if content is None:
         return None
 
-
-    if "Content-Type:" not in data:
+    # verificar se a entrada está codificada em UTF-8
+    try:
+        content = content.decode('utf-8')
+    except UnicodeDecodeError:
         return None
 
-
-    return data[-1]
-
+    return content
 
 # Processo de solicitação do tipo GET
+import urllib.parse
+
 def do_GET(data: list):
-    content = get_content(data)
-    if content == None:
-        return create_headers(400, "Bad Request")
+    query = urllib.parse.urlparse(data[1]).query
+    query_dict = urllib.parse.parse_qs(query)
+    name = query_dict.get('id', [''])[0]
 
     storage_data = read_database()
 
-    if content in storage_data:
-        value = storage_data.get(content)
-        return create_headers(200, value, "OK")
+    if storage_data is not None:
+        if name:
+            value = storage_data.get(name)
+            if value:
+                response_body = json.dumps({name: value})
+                return create_headers(200, "OK", response_body)
+            else:
+                return create_headers(404, "Not Found")
+        else:
+            response_body = json.dumps(storage_data)
+            return create_headers(200, "OK", response_body)
     else:
         return create_headers(404, "Not Found")
+
 
 
 # Processo de solicitação do tipo Post
 def do_POST(data: list):
     content = get_content(data)
+    global body
+    body = data[2]
     if content == None:
         return create_headers(400, "Bad Request")
 

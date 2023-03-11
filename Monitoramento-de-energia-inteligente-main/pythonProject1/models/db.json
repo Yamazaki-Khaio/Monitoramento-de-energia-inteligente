@@ -1,8 +1,191 @@
 {
-    "5c6621f1-bf4e-11ed-89ef-001a7dda7112": {
-        "Data e Hora": "2023-03-10 11:18:02",
-        "cliente_id": "cliente001",
-        "consumo kWh": 2.94,
-        "medidor_id": "medidor001"
+    "05a0f9f6-c04b-11ed-ab23-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 2.05,
+                "data_hora": "2023-03-11 17:31:08",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "0ccaa08e-c039-11ed-8ba8-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 4.71,
+                "data_hora": "2023-03-11 15:17:58",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "14:58:03\"}": "",
+    "15:15:08\"}": "",
+    "15:15:09\"}": "",
+    "15:15:11\"}": "",
+    "15:15:12\"}": "",
+    "15:17:57\"}": "",
+    "15:17:58\"}": "",
+    "15:21:14\"}": "",
+    "15:21:15\"}": "",
+    "15:24:14\"}": "",
+    "15:24:55\"}": "",
+    "15:27:59\"}": "",
+    "15:28:58\"}": "",
+    "15:28:59\"}": "",
+    "15:29:00\"}": "",
+    "15:31:14\"}": "",
+    "15:32:25\"}": "",
+    "15:34:08\"}": "",
+    "15:35:17\"}": "",
+    "15:40:14\"}": "",
+    "15:40:30\"}": "",
+    "15:41:33\"}": "",
+    "15:41:34\"}": "",
+    "15:57:34\"}": "",
+    "16:07:25\"}": "",
+    "16:07:26\"}": "",
+    "16:07:27\"}": "",
+    "16:07:28\"}": "",
+    "16:07:29\"}": "",
+    "2f7ca231-c046-11ed-af5d-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 4.01,
+                "data_hora": "2023-03-11 16:51:59",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "2fbef5dd-c045-11ed-afa5-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 5.49,
+                "data_hora": "2023-03-11 16:44:50",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "43881db1-c036-11ed-a5d8-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 7.52,
+                "data_hora": "2023-03-11 14:58:03",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "584fab02-c03c-11ed-af95-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 6.45,
+                "data_hora": "2023-03-11 15:41:34",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "6fa74799-c040-11ed-bca4-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 1.71,
+                "data_hora": "2023-03-11 16:10:50",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "821a2a6c-c039-11ed-aa6e-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 7.32,
+                "data_hora": "2023-03-11 15:21:15",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "954eae51-c03e-11ed-9731-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 9.39,
+                "data_hora": "2023-03-11 15:57:34",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "9663ab30-c03a-11ed-bb29-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 2.03,
+                "data_hora": "2023-03-11 15:29:00",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "a821d6b3-c038-11ed-aa25-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 1.15,
+                "data_hora": "2023-03-11 15:15:12",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "ced14623-c045-11ed-852c-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 8.14,
+                "data_hora": "2023-03-11 16:49:17",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "dd22c47e-c041-11ed-9ebc-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 2.62,
+                "data_hora": "2023-03-11 16:21:03",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "f3121c5e-c045-11ed-bdb5-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 4.4,
+                "data_hora": "2023-03-11 16:50:18",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "f562339b-c03f-11ed-9776-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 2.69,
+                "data_hora": "2023-03-11 16:07:29",
+                "medidor_id": "medidor001"
+            }
+        ]
+    },
+    "fc3f059b-c03f-11ed-9448-001a7dda7112": {
+        "medidores": [
+            {
+                "cliente_id": "cliente001",
+                "consumo_kWh": 5.42,
+                "data_hora": "2023-03-11 16:07:37",
+                "medidor_id": "medidor001"
+            }
+        ]
     }
 }
