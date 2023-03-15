@@ -1,0 +1,105 @@
+{
+    "a467809d-c2d3-11ed-8e31-001a7dda7112": {
+        "medidores": [
+            {
+                "alerta": "",
+                "consumo_atual_kWh": 458,
+                "consumo_kwh": 458.0,
+                "consumo_total_kWh": 916.0,
+                "fatura_a_pagar": 458.0,
+                "historico_consumo_kWh": [
+                    {
+                        "consumo_kwh": 634.0,
+                        "data_hora": "14/03/2023 22:49:37"
+                    },
+                    {
+                        "consumo_kwh": 424.0,
+                        "data_hora": "14/03/2023 22:49:38"
+                    },
+                    {
+                        "consumo_kwh": 415.0,
+                        "data_hora": "14/03/2023 22:49:39"
+                    },
+                    {
+                        "consumo_kwh": 482.0,
+                        "data_hora": "14/03/2023 22:49:40"
+                    },
+                    {
+                        "consumo_kwh": 393.0,
+                        "data_hora": "14/03/2023 22:49:41"
+                    },
+                    {
+                        "consumo_kwh": 627.0,
+                        "data_hora": "14/03/2023 22:49:42"
+                    },
+                    {
+                        "consumo_kwh": 977.0,
+                        "data_hora": "14/03/2023 22:49:43"
+                    },
+                    {
+                        "consumo_kwh": 458.0,
+                        "data_hora": "14/03/2023 22:49:44"
+                    }
+                ]
+            }
+        ]
+    },
+    "b72097d9-c2d3-11ed-bf72-001a7dda7112": {
+        "medidores": [
+            {
+                "alerta": "14/03/2023 22:50:12 - ALERTA: Consumo muito alto: 854.00 kWh",
+                "consumo_atual_kWh": 854,
+                "consumo_kwh": 854.0,
+                "consumo_total_kWh": 1708.0,
+                "fatura_a_pagar": 854.0,
+                "historico_consumo_kWh": [
+                    {
+                        "consumo_kwh": 521.0,
+                        "data_hora": "14/03/2023 22:50:08"
+                    },
+                    {
+                        "consumo_kwh": 751.0,
+                        "data_hora": "14/03/2023 22:50:09"
+                    },
+                    {
+                        "consumo_kwh": 943.0,
+                        "data_hora": "14/03/2023 22:50:10"
+                    },
+                    {
+                        "consumo_kwh": 493.0,
+                        "data_hora": "14/03/2023 22:50:11"
+                    },
+                    {
+                        "consumo_kwh": 854.0,
+                        "data_hora": "14/03/2023 22:50:12"
+                    }
+                ]
+            }
+        ]
+    },
+    "cb5c25d5-c2d4-11ed-be78-001a7dda7112": {
+        "medidores": [
+            {
+                "alerta": "",
+                "consumo_atual_kWh": 397,
+                "consumo_kwh": 397.0,
+                "consumo_total_kWh": 794.0,
+                "fatura_a_pagar": 397.0,
+                "historico_consumo_kWh": [
+                    {
+                        "consumo_kwh": 321.0,
+                        "data_hora": "14/03/2023 22:57:51"
+                    },
+                    {
+                        "consumo_kwh": 924.0,
+                        "data_hora": "14/03/2023 22:57:52"
+                    },
+                    {
+                        "consumo_kwh": 397.0,
+                        "data_hora": "14/03/2023 22:57:53"
+                    }
+                ]
+            }
+        ]
+    }
+}
