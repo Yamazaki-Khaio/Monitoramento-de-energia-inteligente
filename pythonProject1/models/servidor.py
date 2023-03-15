@@ -17,6 +17,7 @@ def main():
 # Criar arquivo json
 def initialize_database():
     # Create database file
+    
     if not os.path.exists("db.json"):
         with open("db.json", "w+") as db:
             db.write("{\n}")
@@ -118,6 +119,7 @@ def client_thread(client_socket, ip, port):
     response_headers = None
     data = receive_data(client_socket)
     print(data)
+    print(data[18:])
 
     if data:
 
@@ -195,7 +197,7 @@ def do_GET(data: list):
 def do_POST(data: list):
     content = get_content(data)
     global body
-    body = data[2]
+    body = data[18:]
     if content == None:
         return create_headers(400, "Bad Request")
 
@@ -231,7 +233,7 @@ def do_PUT(data: list):
 
     if content_key in storage_data:
         try:
-            storage_data.update(content_dict)
+            storage_data.append(content_dict)
             write_database(storage_data)
             return create_headers(200, "OK")
         except Exception as e:

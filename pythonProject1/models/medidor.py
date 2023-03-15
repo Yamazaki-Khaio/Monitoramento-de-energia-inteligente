@@ -14,7 +14,7 @@ PORTA = 5900
 
 # ID exclusivo do cliente
 client_id = uuid.uuid1()
-
+bol = True
 
 url = f"http://localhost:5000/{client_id}"
 http_request = f"POST / HTTP/1.1\r\nHost: {IP}:{PORTA}\r\n\r\n".encode()
@@ -71,20 +71,21 @@ while True:
     # Converte o payload em uma string JSON
     message = json.dumps(payload)
     # Cria o socket
-  
-    # Envia a mensagem para o servidor
-    response = requests.post(url, json=payload)
-
-    storage_data = read_database()
-    # Verifica se o client_id já existe no arquivo JSON
-    if client_id in storage_data:
+      # Verifica se o client_id já existe no arquivo JSON
+    if bool:
         # Adiciona as informações do medidor às informações existentes do cliente
-        storage_data[str(client_id)]['medidores'].append(payload)
+        requests.post(url, json=payload)
+        bol = False
     else:
         # Cria um novo registro para o cliente com as informações do medidor
-        storage_data[str(client_id)] = {
-            'medidores': [payload]
-        }
+        requests.put(url, json=payload)
+        
+
+    # Envia a mensagem para o servidor
+    
+    
+
+    storage_data = read_database()
 
     # Salva as informações atualizadas no arquivo JSON
     write_database(storage_data)
