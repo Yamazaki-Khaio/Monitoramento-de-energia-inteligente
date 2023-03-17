@@ -1,74 +1,1584 @@
 {
-    "06c95a9f-c2cc-11ed-b205-001a7dda7112": {
-        "medidores": [
+    "019f79c8-c45a-11ed-8bd8-d62ffdb8485d": {
+        "Fatura_Atual": [
             {
-                "alerta": "",
-                "consumo_atual_kWh": 414,
-                "consumo_kwh": 414.0,
-                "consumo_total_kWh": 828.0,
-                "fatura_a_pagar": 414.0,
-                "historico_consumo_kWh": "14/03/2023 20:11:20 - Consumo atual: 935.00 kWh\n14/03/2023 21:08:19 - Consumo atual: 303.00 kWh\n14/03/2023 21:19:18 - Consumo atual: 149.00 kWh\n14/03/2023 21:42:45 - Consumo atual: 465.00 kWh\n14/03/2023 21:43:00 - Consumo atual: 514.00 kWh\n14/03/2023 21:43:01 - Consumo atual: 871.00 kWh\n14/03/2023 21:43:02 - Consumo atual: 447.00 kWh\n14/03/2023 21:43:03 - Consumo atual: 605.00 kWh\n14/03/2023 21:43:04 - Consumo atual: 447.00 kWh\n14/03/2023 21:43:05 - Consumo atual: 308.00 kWh\n14/03/2023 21:43:06 - Consumo atual: 754.00 kWh\n14/03/2023 21:43:07 - Consumo atual: 400.00 kWh\n14/03/2023 21:43:08 - Consumo atual: 232.00 kWh\n14/03/2023 21:43:09 - Consumo atual: 864.00 kWh\n14/03/2023 21:43:10 - Consumo atual: 821.00 kWh\n14/03/2023 21:43:11 - Consumo atual: 931.00 kWh\n14/03/2023 21:43:12 - Consumo atual: 284.00 kWh\n14/03/2023 21:43:13 - Consumo atual: 795.00 kWh\n14/03/2023 21:43:14 - Consumo atual: 706.00 kWh\n14/03/2023 21:43:15 - Consumo atual: 331.00 kWh\n14/03/2023 21:43:16 - Consumo atual: 748.00 kWh\n14/03/2023 21:43:17 - Consumo atual: 335.00 kWh\n14/03/2023 21:43:18 - Consumo atual: 798.00 kWh\n14/03/2023 21:43:19 - Consumo atual: 802.00 kWh\n14/03/2023 21:43:20 - Consumo atual: 306.00 kWh\n14/03/2023 21:43:21 - Consumo atual: 471.00 kWh\n14/03/2023 21:43:22 - Consumo atual: 741.00 kWh\n14/03/2023 21:43:23 - Consumo atual: 421.00 kWh\n14/03/2023 21:43:24 - Consumo atual: 535.00 kWh\n14/03/2023 21:43:26 - Consumo atual: 127.00 kWh\n14/03/2023 21:43:27 - Consumo atual: 940.00 kWh\n14/03/2023 21:43:28 - Consumo atual: 915.00 kWh\n14/03/2023 21:43:29 - Consumo atual: 780.00 kWh\n14/03/2023 21:43:30 - Consumo atual: 307.00 kWh\n14/03/2023 21:43:31 - Consumo atual: 654.00 kWh\n14/03/2023 21:43:32 - Consumo atual: 351.00 kWh\n14/03/2023 21:43:33 - Consumo atual: 288.00 kWh\n14/03/2023 21:43:34 - Consumo atual: 343.00 kWh\n14/03/2023 21:43:35 - Consumo atual: 359.00 kWh\n14/03/2023 21:43:36 - Consumo atual: 456.00 kWh\n14/03/2023 21:43:37 - Consumo atual: 449.00 kWh\n14/03/2023 21:43:38 - Consumo atual: 866.00 kWh\n14/03/2023 21:43:39 - Consumo atual: 864.00 kWh\n14/03/2023 21:43:40 - Consumo atual: 612.00 kWh\n14/03/2023 21:43:41 - Consumo atual: 870.00 kWh\n14/03/2023 21:43:42 - Consumo atual: 942.00 kWh\n14/03/2023 21:43:43 - Consumo atual: 197.00 kWh\n14/03/2023 21:43:44 - Consumo atual: 816.00 kWh\n14/03/2023 21:43:45 - Consumo atual: 918.00 kWh\n14/03/2023 21:43:46 - Consumo atual: 114.00 kWh\n14/03/2023 21:43:47 - Consumo atual: 988.00 kWh\n14/03/2023 21:43:48 - Consumo atual: 416.00 kWh\n14/03/2023 21:43:49 - Consumo atual: 234.00 kWh\n14/03/2023 21:43:50 - Consumo atual: 763.00 kWh\n14/03/2023 21:43:51 - Consumo atual: 456.00 kWh\n14/03/2023 21:43:52 - Consumo atual: 783.00 kWh\n14/03/2023 21:43:53 - Consumo atual: 253.00 kWh\n14/03/2023 21:43:55 - Consumo atual: 834.00 kWh\n14/03/2023 21:43:56 - Consumo atual: 359.00 kWh\n14/03/2023 21:43:57 - Consumo atual: 255.00 kWh\n14/03/2023 21:43:58 - Consumo atual: 985.00 kWh\n14/03/2023 21:43:59 - Consumo atual: 560.00 kWh\n14/03/2023 21:44:00 - Consumo atual: 144.00 kWh\n14/03/2023 21:44:01 - Consumo atual: 829.00 kWh\n14/03/2023 21:44:02 - Consumo atual: 834.00 kWh\n14/03/2023 21:44:03 - Consumo atual: 876.00 kWh\n14/03/2023 21:44:04 - Consumo atual: 833.00 kWh\n14/03/2023 21:44:05 - Consumo atual: 813.00 kWh\n14/03/2023 21:44:06 - Consumo atual: 489.00 kWh\n14/03/2023 21:44:07 - Consumo atual: 487.00 kWh\n14/03/2023 21:44:08 - Consumo atual: 206.00 kWh\n14/03/2023 21:44:09 - Consumo atual: 672.00 kWh\n14/03/2023 21:44:10 - Consumo atual: 561.00 kWh\n14/03/2023 21:44:11 - Consumo atual: 744.00 kWh\n14/03/2023 21:44:12 - Consumo atual: 835.00 kWh\n14/03/2023 21:44:13 - Consumo atual: 123.00 kWh\n14/03/2023 21:44:14 - Consumo atual: 201.00 kWh\n14/03/2023 21:44:15 - Consumo atual: 588.00 kWh\n14/03/2023 21:44:16 - Consumo atual: 254.00 kWh\n14/03/2023 21:44:17 - Consumo atual: 531.00 kWh\n14/03/2023 21:44:18 - Consumo atual: 943.00 kWh\n14/03/2023 21:44:19 - Consumo atual: 762.00 kWh\n14/03/2023 21:44:20 - Consumo atual: 785.00 kWh\n14/03/2023 21:44:21 - Consumo atual: 689.00 kWh\n14/03/2023 21:44:22 - Consumo atual: 893.00 kWh\n14/03/2023 21:44:23 - Consumo atual: 411.00 kWh\n14/03/2023 21:44:24 - Consumo atual: 441.00 kWh\n14/03/2023 21:44:25 - Consumo atual: 436.00 kWh\n14/03/2023 21:44:26 - Consumo atual: 304.00 kWh\n14/03/2023 21:44:27 - Consumo atual: 684.00 kWh\n14/03/2023 21:44:28 - Consumo atual: 153.00 kWh\n14/03/2023 21:44:29 - Consumo atual: 460.00 kWh\n14/03/2023 21:44:30 - Consumo atual: 237.00 kWh\n14/03/2023 21:44:31 - Consumo atual: 870.00 kWh\n14/03/2023 21:44:32 - Consumo atual: 932.00 kWh\n14/03/2023 21:44:33 - Consumo atual: 603.00 kWh\n14/03/2023 21:44:35 - Consumo atual: 533.00 kWh\n14/03/2023 21:44:36 - Consumo atual: 691.00 kWh\n14/03/2023 21:44:37 - Consumo atual: 375.00 kWh\n14/03/2023 21:44:38 - Consumo atual: 407.00 kWh\n14/03/2023 21:44:39 - Consumo atual: 355.00 kWh\n14/03/2023 21:44:40 - Consumo atual: 716.00 kWh\n14/03/2023 21:44:41 - Consumo atual: 337.00 kWh\n14/03/2023 21:44:42 - Consumo atual: 163.00 kWh\n14/03/2023 21:44:43 - Consumo atual: 883.00 kWh\n14/03/2023 21:44:44 - Consumo atual: 858.00 kWh\n14/03/2023 21:44:45 - Consumo atual: 855.00 kWh\n14/03/2023 21:44:46 - Consumo atual: 151.00 kWh\n14/03/2023 21:44:47 - Consumo atual: 346.00 kWh\n14/03/2023 21:44:48 - Consumo atual: 232.00 kWh\n14/03/2023 21:44:49 - Consumo atual: 490.00 kWh\n14/03/2023 21:44:50 - Consumo atual: 606.00 kWh\n14/03/2023 21:44:51 - Consumo atual: 568.00 kWh\n14/03/2023 21:44:52 - Consumo atual: 944.00 kWh\n14/03/2023 21:44:53 - Consumo atual: 788.00 kWh\n14/03/2023 21:44:54 - Consumo atual: 249.00 kWh\n14/03/2023 21:44:55 - Consumo atual: 163.00 kWh\n14/03/2023 21:44:56 - Consumo atual: 667.00 kWh\n14/03/2023 21:44:57 - Consumo atual: 951.00 kWh\n14/03/2023 21:44:58 - Consumo atual: 758.00 kWh\n14/03/2023 21:44:59 - Consumo atual: 875.00 kWh\n14/03/2023 21:45:00 - Consumo atual: 149.00 kWh\n14/03/2023 21:45:01 - Consumo atual: 440.00 kWh\n14/03/2023 21:45:02 - Consumo atual: 409.00 kWh\n14/03/2023 21:45:03 - Consumo atual: 328.00 kWh\n14/03/2023 21:45:04 - Consumo atual: 679.00 kWh\n14/03/2023 21:45:05 - Consumo atual: 283.00 kWh\n14/03/2023 21:45:06 - Consumo atual: 924.00 kWh\n14/03/2023 21:45:07 - Consumo atual: 555.00 kWh\n14/03/2023 21:45:08 - Consumo atual: 492.00 kWh\n14/03/2023 21:45:09 - Consumo atual: 524.00 kWh\n14/03/2023 21:45:10 - Consumo atual: 497.00 kWh\n14/03/2023 21:45:11 - Consumo atual: 378.00 kWh\n14/03/2023 21:45:12 - Consumo atual: 951.00 kWh\n14/03/2023 21:45:13 - Consumo atual: 596.00 kWh\n14/03/2023 21:45:14 - Consumo atual: 420.00 kWh\n14/03/2023 21:45:15 - Consumo atual: 554.00 kWh\n14/03/2023 21:45:16 - Consumo atual: 305.00 kWh\n14/03/2023 21:45:17 - Consumo atual: 714.00 kWh\n14/03/2023 21:45:18 - Consumo atual: 485.00 kWh\n14/03/2023 21:45:19 - Consumo atual: 924.00 kWh\n14/03/2023 21:45:21 - Consumo atual: 282.00 kWh\n14/03/2023 21:45:22 - Consumo atual: 306.00 kWh\n14/03/2023 21:45:23 - Consumo atual: 718.00 kWh\n14/03/2023 21:45:24 - Consumo atual: 484.00 kWh\n14/03/2023 21:45:25 - Consumo atual: 220.00 kWh\n14/03/2023 21:45:26 - Consumo atual: 894.00 kWh\n14/03/2023 21:45:27 - Consumo atual: 850.00 kWh\n14/03/2023 21:45:28 - Consumo atual: 437.00 kWh\n14/03/2023 21:45:29 - Consumo atual: 969.00 kWh\n14/03/2023 21:45:30 - Consumo atual: 831.00 kWh\n14/03/2023 21:45:31 - Consumo atual: 541.00 kWh\n14/03/2023 21:45:32 - Consumo atual: 436.00 kWh\n14/03/2023 21:45:33 - Consumo atual: 752.00 kWh\n14/03/2023 21:45:34 - Consumo atual: 271.00 kWh\n14/03/2023 21:45:35 - Consumo atual: 163.00 kWh\n14/03/2023 21:45:36 - Consumo atual: 902.00 kWh\n14/03/2023 21:45:37 - Consumo atual: 991.00 kWh\n14/03/2023 21:45:38 - Consumo atual: 282.00 kWh\n14/03/2023 21:45:39 - Consumo atual: 335.00 kWh\n14/03/2023 21:45:40 - Consumo atual: 719.00 kWh\n14/03/2023 21:45:41 - Consumo atual: 958.00 kWh\n14/03/2023 21:45:42 - Consumo atual: 523.00 kWh\n14/03/2023 21:45:43 - Consumo atual: 335.00 kWh\n14/03/2023 21:45:44 - Consumo atual: 561.00 kWh\n14/03/2023 21:45:45 - Consumo atual: 230.00 kWh\n14/03/2023 21:45:46 - Consumo atual: 147.00 kWh\n14/03/2023 21:45:47 - Consumo atual: 733.00 kWh\n14/03/2023 21:45:48 - Consumo atual: 300.00 kWh\n14/03/2023 21:45:49 - Consumo atual: 996.00 kWh\n14/03/2023 21:45:50 - Consumo atual: 497.00 kWh\n14/03/2023 21:45:51 - Consumo atual: 736.00 kWh\n14/03/2023 21:45:52 - Consumo atual: 616.00 kWh\n14/03/2023 21:45:53 - Consumo atual: 119.00 kWh\n14/03/2023 21:45:54 - Consumo atual: 384.00 kWh\n14/03/2023 21:45:55 - Consumo atual: 151.00 kWh\n14/03/2023 21:47:56 - Consumo atual: 846.00 kWh\n14/03/2023 21:47:57 - Consumo atual: 318.00 kWh\n14/03/2023 21:47:58 - Consumo atual: 819.00 kWh\n14/03/2023 21:47:59 - Consumo atual: 298.00 kWh\n14/03/2023 21:48:00 - Consumo atual: 885.00 kWh\n14/03/2023 21:48:01 - Consumo atual: 900.00 kWh\n14/03/2023 21:48:02 - Consumo atual: 257.00 kWh\n14/03/2023 21:48:03 - Consumo atual: 357.00 kWh\n14/03/2023 21:48:04 - Consumo atual: 170.00 kWh\n14/03/2023 21:48:05 - Consumo atual: 459.00 kWh\n14/03/2023 21:48:06 - Consumo atual: 937.00 kWh\n14/03/2023 21:48:07 - Consumo atual: 133.00 kWh\n14/03/2023 21:48:08 - Consumo atual: 299.00 kWh\n14/03/2023 21:48:09 - Consumo atual: 899.00 kWh\n14/03/2023 21:48:10 - Consumo atual: 572.00 kWh\n14/03/2023 21:48:12 - Consumo atual: 413.00 kWh\n14/03/2023 21:48:13 - Consumo atual: 700.00 kWh\n14/03/2023 21:48:14 - Consumo atual: 114.00 kWh\n14/03/2023 21:48:15 - Consumo atual: 483.00 kWh\n14/03/2023 21:48:16 - Consumo atual: 370.00 kWh\n14/03/2023 21:48:17 - Consumo atual: 258.00 kWh\n14/03/2023 21:48:18 - Consumo atual: 505.00 kWh\n14/03/2023 21:48:19 - Consumo atual: 180.00 kWh\n14/03/2023 21:48:20 - Consumo atual: 452.00 kWh\n14/03/2023 21:48:21 - Consumo atual: 665.00 kWh\n14/03/2023 21:48:22 - Consumo atual: 999.00 kWh\n14/03/2023 21:48:23 - Consumo atual: 980.00 kWh\n14/03/2023 21:48:24 - Consumo atual: 538.00 kWh\n14/03/2023 21:55:06 - Consumo atual: 519.00 kWh\n14/03/2023 21:55:07 - Consumo atual: 459.00 kWh\n14/03/2023 21:55:08 - Consumo atual: 405.00 kWh\n14/03/2023 21:55:09 - Consumo atual: 182.00 kWh\n14/03/2023 21:55:10 - Consumo atual: 773.00 kWh\n14/03/2023 21:55:11 - Consumo atual: 688.00 kWh\n14/03/2023 21:55:12 - Consumo atual: 299.00 kWh\n14/03/2023 21:55:13 - Consumo atual: 931.00 kWh\n14/03/2023 21:55:14 - Consumo atual: 359.00 kWh\n14/03/2023 21:55:15 - Consumo atual: 538.00 kWh\n14/03/2023 21:55:16 - Consumo atual: 424.00 kWh\n14/03/2023 21:55:17 - Consumo atual: 264.00 kWh\n14/03/2023 21:55:18 - Consumo atual: 883.00 kWh\n14/03/2023 21:55:19 - Consumo atual: 505.00 kWh\n14/03/2023 21:55:20 - Consumo atual: 671.00 kWh\n14/03/2023 21:55:21 - Consumo atual: 398.00 kWh\n14/03/2023 21:55:22 - Consumo atual: 761.00 kWh\n14/03/2023 21:55:23 - Consumo atual: 830.00 kWh\n14/03/2023 21:55:24 - Consumo atual: 302.00 kWh\n14/03/2023 21:55:25 - Consumo atual: 785.00 kWh\n14/03/2023 21:55:26 - Consumo atual: 414.00 kWh\n"
+                "consumo_kwh": 441,
+                "data_hora": "17/03/2023 00:23:57"
+            },
+            {
+                "consumo_kwh": 803,
+                "data_hora": "17/03/2023 00:24:07"
+            },
+            {
+                "consumo_kwh": 171,
+                "data_hora": "17/03/2023 00:24:17"
+            },
+            {
+                "consumo_kwh": 727,
+                "data_hora": "17/03/2023 00:24:27"
+            },
+            {
+                "consumo_kwh": 11,
+                "data_hora": "17/03/2023 00:24:37"
+            },
+            {
+                "consumo_kwh": 907,
+                "data_hora": "17/03/2023 00:24:47"
+            },
+            {
+                "consumo_kwh": 705,
+                "data_hora": "17/03/2023 00:24:57"
+            },
+            {
+                "consumo_kwh": 667,
+                "data_hora": "17/03/2023 00:25:07"
+            },
+            {
+                "consumo_kwh": 303,
+                "data_hora": "17/03/2023 00:25:17"
+            },
+            {
+                "consumo_kwh": 135,
+                "data_hora": "17/03/2023 00:25:27"
+            },
+            {
+                "consumo_kwh": 137,
+                "data_hora": "17/03/2023 00:25:37"
+            },
+            {
+                "consumo_kwh": 135,
+                "data_hora": "17/03/2023 00:25:47"
+            },
+            {
+                "consumo_kwh": 237,
+                "data_hora": "17/03/2023 00:25:57"
+            },
+            {
+                "consumo_kwh": 457,
+                "data_hora": "17/03/2023 00:26:07"
+            },
+            {
+                "consumo_kwh": 711,
+                "data_hora": "17/03/2023 00:26:17"
+            },
+            {
+                "consumo_kwh": 19,
+                "data_hora": "17/03/2023 00:26:27"
+            },
+            {
+                "consumo_kwh": 499,
+                "data_hora": "17/03/2023 00:26:37"
+            },
+            {
+                "consumo_kwh": 349,
+                "data_hora": "17/03/2023 00:26:47"
+            },
+            {
+                "consumo_kwh": 265,
+                "data_hora": "17/03/2023 00:26:57"
+            },
+            {
+                "consumo_kwh": 225,
+                "data_hora": "17/03/2023 00:27:07"
+            },
+            {
+                "consumo_kwh": 589,
+                "data_hora": "17/03/2023 00:27:17"
+            },
+            {
+                "consumo_kwh": 613,
+                "data_hora": "17/03/2023 00:27:27"
+            },
+            {
+                "consumo_kwh": 629,
+                "data_hora": "17/03/2023 00:27:37"
+            },
+            {
+                "consumo_kwh": 451,
+                "data_hora": "17/03/2023 00:27:47"
+            },
+            {
+                "consumo_kwh": 985,
+                "data_hora": "17/03/2023 00:27:57"
+            },
+            {
+                "consumo_kwh": 545,
+                "data_hora": "17/03/2023 00:28:07"
+            },
+            {
+                "consumo_kwh": 939,
+                "data_hora": "17/03/2023 00:28:17"
+            },
+            {
+                "consumo_kwh": 121,
+                "data_hora": "17/03/2023 00:28:27"
+            },
+            {
+                "consumo_kwh": 161,
+                "data_hora": "17/03/2023 00:28:37"
+            },
+            {
+                "consumo_kwh": 313,
+                "data_hora": "17/03/2023 00:28:47"
+            },
+            {
+                "consumo_kwh": 175,
+                "data_hora": "17/03/2023 00:28:57"
+            },
+            {
+                "consumo_kwh": 841,
+                "data_hora": "17/03/2023 00:29:07"
+            },
+            {
+                "consumo_kwh": 383,
+                "data_hora": "17/03/2023 00:29:17"
+            },
+            {
+                "consumo_kwh": 671,
+                "data_hora": "17/03/2023 00:29:27"
+            },
+            {
+                "consumo_kwh": 985,
+                "data_hora": "17/03/2023 00:29:37"
+            },
+            {
+                "consumo_kwh": 493,
+                "data_hora": "17/03/2023 00:29:47"
+            },
+            {
+                "consumo_kwh": 891,
+                "data_hora": "17/03/2023 00:29:57"
+            },
+            {
+                "consumo_kwh": 675,
+                "data_hora": "17/03/2023 00:30:07"
+            },
+            {
+                "consumo_kwh": 789,
+                "data_hora": "17/03/2023 00:30:17"
+            },
+            {
+                "consumo_kwh": 835,
+                "data_hora": "17/03/2023 00:30:27"
+            },
+            {
+                "consumo_kwh": 41,
+                "data_hora": "17/03/2023 00:30:37"
+            },
+            {
+                "consumo_kwh": 979,
+                "data_hora": "17/03/2023 00:30:47"
+            },
+            {
+                "consumo_kwh": 743,
+                "data_hora": "17/03/2023 00:30:57"
+            },
+            {
+                "consumo_kwh": 277,
+                "data_hora": "17/03/2023 00:31:07"
+            },
+            {
+                "consumo_kwh": 691,
+                "data_hora": "17/03/2023 00:31:17"
+            },
+            {
+                "consumo_kwh": 799,
+                "data_hora": "17/03/2023 00:31:27"
+            },
+            {
+                "consumo_kwh": 103,
+                "data_hora": "17/03/2023 00:31:37"
+            },
+            {
+                "consumo_kwh": 713,
+                "data_hora": "17/03/2023 00:31:47"
+            },
+            {
+                "consumo_kwh": 677,
+                "data_hora": "17/03/2023 00:31:57"
+            },
+            {
+                "consumo_kwh": 357,
+                "data_hora": "17/03/2023 00:32:07"
+            },
+            {
+                "consumo_kwh": 909,
+                "data_hora": "17/03/2023 00:32:17"
+            },
+            {
+                "consumo_kwh": 251,
+                "data_hora": "17/03/2023 00:32:27"
+            },
+            {
+                "consumo_kwh": 213,
+                "data_hora": "17/03/2023 00:32:37"
+            },
+            {
+                "consumo_kwh": 559,
+                "data_hora": "17/03/2023 00:32:47"
+            },
+            {
+                "consumo_kwh": 921,
+                "data_hora": "17/03/2023 00:32:57"
+            },
+            {
+                "consumo_kwh": 945,
+                "data_hora": "17/03/2023 00:33:07"
+            },
+            {
+                "consumo_kwh": 667,
+                "data_hora": "17/03/2023 00:33:17"
+            },
+            {
+                "consumo_kwh": 787,
+                "data_hora": "17/03/2023 00:33:27"
+            },
+            {
+                "consumo_kwh": 983,
+                "data_hora": "17/03/2023 00:33:37"
+            },
+            {
+                "consumo_kwh": 509,
+                "data_hora": "17/03/2023 00:33:47"
+            },
+            {
+                "consumo_kwh": 61,
+                "data_hora": "17/03/2023 00:33:57"
+            },
+            {
+                "consumo_kwh": 273,
+                "data_hora": "17/03/2023 00:34:07"
+            },
+            {
+                "consumo_kwh": 957,
+                "data_hora": "17/03/2023 00:34:17"
+            },
+            {
+                "consumo_kwh": 233,
+                "data_hora": "17/03/2023 00:34:27"
+            },
+            {
+                "consumo_kwh": 173,
+                "data_hora": "17/03/2023 00:34:37"
             }
-        ]
+        ],
+        "Valor_da_Fatura": "R$ 16904.50",
+        "alerta": "",
+        "consumo_atual_kWh": 86,
+        "consumo_kwh": 173,
+        "consumo_total_kWh": 33809
     },
-    "06d3c78c-c2cb-11ed-a64d-001a7dda7112": {
-        "medidores": [
+    "06fe677a-c4c9-11ed-9cac-d2f8338be868": {
+        "Fatura_Atual": [
             {
-                "alerta": "14/03/2023 21:48:24 - ALERTA: Consumo muito alto: 538.00 kWh",
-                "consumo_atual_kWh": 538,
-                "consumo_kwh": 538.0,
-                "consumo_total_kWh": 1076.0,
-                "fatura_a_pagar": 538.0,
-                "historico_consumo_kWh": "14/03/2023 20:11:20 - Consumo atual: 935.00 kWh\n14/03/2023 21:08:19 - Consumo atual: 303.00 kWh\n14/03/2023 21:19:18 - Consumo atual: 149.00 kWh\n14/03/2023 21:42:45 - Consumo atual: 465.00 kWh\n14/03/2023 21:43:00 - Consumo atual: 514.00 kWh\n14/03/2023 21:43:01 - Consumo atual: 871.00 kWh\n14/03/2023 21:43:02 - Consumo atual: 447.00 kWh\n14/03/2023 21:43:03 - Consumo atual: 605.00 kWh\n14/03/2023 21:43:04 - Consumo atual: 447.00 kWh\n14/03/2023 21:43:05 - Consumo atual: 308.00 kWh\n14/03/2023 21:43:06 - Consumo atual: 754.00 kWh\n14/03/2023 21:43:07 - Consumo atual: 400.00 kWh\n14/03/2023 21:43:08 - Consumo atual: 232.00 kWh\n14/03/2023 21:43:09 - Consumo atual: 864.00 kWh\n14/03/2023 21:43:10 - Consumo atual: 821.00 kWh\n14/03/2023 21:43:11 - Consumo atual: 931.00 kWh\n14/03/2023 21:43:12 - Consumo atual: 284.00 kWh\n14/03/2023 21:43:13 - Consumo atual: 795.00 kWh\n14/03/2023 21:43:14 - Consumo atual: 706.00 kWh\n14/03/2023 21:43:15 - Consumo atual: 331.00 kWh\n14/03/2023 21:43:16 - Consumo atual: 748.00 kWh\n14/03/2023 21:43:17 - Consumo atual: 335.00 kWh\n14/03/2023 21:43:18 - Consumo atual: 798.00 kWh\n14/03/2023 21:43:19 - Consumo atual: 802.00 kWh\n14/03/2023 21:43:20 - Consumo atual: 306.00 kWh\n14/03/2023 21:43:21 - Consumo atual: 471.00 kWh\n14/03/2023 21:43:22 - Consumo atual: 741.00 kWh\n14/03/2023 21:43:23 - Consumo atual: 421.00 kWh\n14/03/2023 21:43:24 - Consumo atual: 535.00 kWh\n14/03/2023 21:43:26 - Consumo atual: 127.00 kWh\n14/03/2023 21:43:27 - Consumo atual: 940.00 kWh\n14/03/2023 21:43:28 - Consumo atual: 915.00 kWh\n14/03/2023 21:43:29 - Consumo atual: 780.00 kWh\n14/03/2023 21:43:30 - Consumo atual: 307.00 kWh\n14/03/2023 21:43:31 - Consumo atual: 654.00 kWh\n14/03/2023 21:43:32 - Consumo atual: 351.00 kWh\n14/03/2023 21:43:33 - Consumo atual: 288.00 kWh\n14/03/2023 21:43:34 - Consumo atual: 343.00 kWh\n14/03/2023 21:43:35 - Consumo atual: 359.00 kWh\n14/03/2023 21:43:36 - Consumo atual: 456.00 kWh\n14/03/2023 21:43:37 - Consumo atual: 449.00 kWh\n14/03/2023 21:43:38 - Consumo atual: 866.00 kWh\n14/03/2023 21:43:39 - Consumo atual: 864.00 kWh\n14/03/2023 21:43:40 - Consumo atual: 612.00 kWh\n14/03/2023 21:43:41 - Consumo atual: 870.00 kWh\n14/03/2023 21:43:42 - Consumo atual: 942.00 kWh\n14/03/2023 21:43:43 - Consumo atual: 197.00 kWh\n14/03/2023 21:43:44 - Consumo atual: 816.00 kWh\n14/03/2023 21:43:45 - Consumo atual: 918.00 kWh\n14/03/2023 21:43:46 - Consumo atual: 114.00 kWh\n14/03/2023 21:43:47 - Consumo atual: 988.00 kWh\n14/03/2023 21:43:48 - Consumo atual: 416.00 kWh\n14/03/2023 21:43:49 - Consumo atual: 234.00 kWh\n14/03/2023 21:43:50 - Consumo atual: 763.00 kWh\n14/03/2023 21:43:51 - Consumo atual: 456.00 kWh\n14/03/2023 21:43:52 - Consumo atual: 783.00 kWh\n14/03/2023 21:43:53 - Consumo atual: 253.00 kWh\n14/03/2023 21:43:55 - Consumo atual: 834.00 kWh\n14/03/2023 21:43:56 - Consumo atual: 359.00 kWh\n14/03/2023 21:43:57 - Consumo atual: 255.00 kWh\n14/03/2023 21:43:58 - Consumo atual: 985.00 kWh\n14/03/2023 21:43:59 - Consumo atual: 560.00 kWh\n14/03/2023 21:44:00 - Consumo atual: 144.00 kWh\n14/03/2023 21:44:01 - Consumo atual: 829.00 kWh\n14/03/2023 21:44:02 - Consumo atual: 834.00 kWh\n14/03/2023 21:44:03 - Consumo atual: 876.00 kWh\n14/03/2023 21:44:04 - Consumo atual: 833.00 kWh\n14/03/2023 21:44:05 - Consumo atual: 813.00 kWh\n14/03/2023 21:44:06 - Consumo atual: 489.00 kWh\n14/03/2023 21:44:07 - Consumo atual: 487.00 kWh\n14/03/2023 21:44:08 - Consumo atual: 206.00 kWh\n14/03/2023 21:44:09 - Consumo atual: 672.00 kWh\n14/03/2023 21:44:10 - Consumo atual: 561.00 kWh\n14/03/2023 21:44:11 - Consumo atual: 744.00 kWh\n14/03/2023 21:44:12 - Consumo atual: 835.00 kWh\n14/03/2023 21:44:13 - Consumo atual: 123.00 kWh\n14/03/2023 21:44:14 - Consumo atual: 201.00 kWh\n14/03/2023 21:44:15 - Consumo atual: 588.00 kWh\n14/03/2023 21:44:16 - Consumo atual: 254.00 kWh\n14/03/2023 21:44:17 - Consumo atual: 531.00 kWh\n14/03/2023 21:44:18 - Consumo atual: 943.00 kWh\n14/03/2023 21:44:19 - Consumo atual: 762.00 kWh\n14/03/2023 21:44:20 - Consumo atual: 785.00 kWh\n14/03/2023 21:44:21 - Consumo atual: 689.00 kWh\n14/03/2023 21:44:22 - Consumo atual: 893.00 kWh\n14/03/2023 21:44:23 - Consumo atual: 411.00 kWh\n14/03/2023 21:44:24 - Consumo atual: 441.00 kWh\n14/03/2023 21:44:25 - Consumo atual: 436.00 kWh\n14/03/2023 21:44:26 - Consumo atual: 304.00 kWh\n14/03/2023 21:44:27 - Consumo atual: 684.00 kWh\n14/03/2023 21:44:28 - Consumo atual: 153.00 kWh\n14/03/2023 21:44:29 - Consumo atual: 460.00 kWh\n14/03/2023 21:44:30 - Consumo atual: 237.00 kWh\n14/03/2023 21:44:31 - Consumo atual: 870.00 kWh\n14/03/2023 21:44:32 - Consumo atual: 932.00 kWh\n14/03/2023 21:44:33 - Consumo atual: 603.00 kWh\n14/03/2023 21:44:35 - Consumo atual: 533.00 kWh\n14/03/2023 21:44:36 - Consumo atual: 691.00 kWh\n14/03/2023 21:44:37 - Consumo atual: 375.00 kWh\n14/03/2023 21:44:38 - Consumo atual: 407.00 kWh\n14/03/2023 21:44:39 - Consumo atual: 355.00 kWh\n14/03/2023 21:44:40 - Consumo atual: 716.00 kWh\n14/03/2023 21:44:41 - Consumo atual: 337.00 kWh\n14/03/2023 21:44:42 - Consumo atual: 163.00 kWh\n14/03/2023 21:44:43 - Consumo atual: 883.00 kWh\n14/03/2023 21:44:44 - Consumo atual: 858.00 kWh\n14/03/2023 21:44:45 - Consumo atual: 855.00 kWh\n14/03/2023 21:44:46 - Consumo atual: 151.00 kWh\n14/03/2023 21:44:47 - Consumo atual: 346.00 kWh\n14/03/2023 21:44:48 - Consumo atual: 232.00 kWh\n14/03/2023 21:44:49 - Consumo atual: 490.00 kWh\n14/03/2023 21:44:50 - Consumo atual: 606.00 kWh\n14/03/2023 21:44:51 - Consumo atual: 568.00 kWh\n14/03/2023 21:44:52 - Consumo atual: 944.00 kWh\n14/03/2023 21:44:53 - Consumo atual: 788.00 kWh\n14/03/2023 21:44:54 - Consumo atual: 249.00 kWh\n14/03/2023 21:44:55 - Consumo atual: 163.00 kWh\n14/03/2023 21:44:56 - Consumo atual: 667.00 kWh\n14/03/2023 21:44:57 - Consumo atual: 951.00 kWh\n14/03/2023 21:44:58 - Consumo atual: 758.00 kWh\n14/03/2023 21:44:59 - Consumo atual: 875.00 kWh\n14/03/2023 21:45:00 - Consumo atual: 149.00 kWh\n14/03/2023 21:45:01 - Consumo atual: 440.00 kWh\n14/03/2023 21:45:02 - Consumo atual: 409.00 kWh\n14/03/2023 21:45:03 - Consumo atual: 328.00 kWh\n14/03/2023 21:45:04 - Consumo atual: 679.00 kWh\n14/03/2023 21:45:05 - Consumo atual: 283.00 kWh\n14/03/2023 21:45:06 - Consumo atual: 924.00 kWh\n14/03/2023 21:45:07 - Consumo atual: 555.00 kWh\n14/03/2023 21:45:08 - Consumo atual: 492.00 kWh\n14/03/2023 21:45:09 - Consumo atual: 524.00 kWh\n14/03/2023 21:45:10 - Consumo atual: 497.00 kWh\n14/03/2023 21:45:11 - Consumo atual: 378.00 kWh\n14/03/2023 21:45:12 - Consumo atual: 951.00 kWh\n14/03/2023 21:45:13 - Consumo atual: 596.00 kWh\n14/03/2023 21:45:14 - Consumo atual: 420.00 kWh\n14/03/2023 21:45:15 - Consumo atual: 554.00 kWh\n14/03/2023 21:45:16 - Consumo atual: 305.00 kWh\n14/03/2023 21:45:17 - Consumo atual: 714.00 kWh\n14/03/2023 21:45:18 - Consumo atual: 485.00 kWh\n14/03/2023 21:45:19 - Consumo atual: 924.00 kWh\n14/03/2023 21:45:21 - Consumo atual: 282.00 kWh\n14/03/2023 21:45:22 - Consumo atual: 306.00 kWh\n14/03/2023 21:45:23 - Consumo atual: 718.00 kWh\n14/03/2023 21:45:24 - Consumo atual: 484.00 kWh\n14/03/2023 21:45:25 - Consumo atual: 220.00 kWh\n14/03/2023 21:45:26 - Consumo atual: 894.00 kWh\n14/03/2023 21:45:27 - Consumo atual: 850.00 kWh\n14/03/2023 21:45:28 - Consumo atual: 437.00 kWh\n14/03/2023 21:45:29 - Consumo atual: 969.00 kWh\n14/03/2023 21:45:30 - Consumo atual: 831.00 kWh\n14/03/2023 21:45:31 - Consumo atual: 541.00 kWh\n14/03/2023 21:45:32 - Consumo atual: 436.00 kWh\n14/03/2023 21:45:33 - Consumo atual: 752.00 kWh\n14/03/2023 21:45:34 - Consumo atual: 271.00 kWh\n14/03/2023 21:45:35 - Consumo atual: 163.00 kWh\n14/03/2023 21:45:36 - Consumo atual: 902.00 kWh\n14/03/2023 21:45:37 - Consumo atual: 991.00 kWh\n14/03/2023 21:45:38 - Consumo atual: 282.00 kWh\n14/03/2023 21:45:39 - Consumo atual: 335.00 kWh\n14/03/2023 21:45:40 - Consumo atual: 719.00 kWh\n14/03/2023 21:45:41 - Consumo atual: 958.00 kWh\n14/03/2023 21:45:42 - Consumo atual: 523.00 kWh\n14/03/2023 21:45:43 - Consumo atual: 335.00 kWh\n14/03/2023 21:45:44 - Consumo atual: 561.00 kWh\n14/03/2023 21:45:45 - Consumo atual: 230.00 kWh\n14/03/2023 21:45:46 - Consumo atual: 147.00 kWh\n14/03/2023 21:45:47 - Consumo atual: 733.00 kWh\n14/03/2023 21:45:48 - Consumo atual: 300.00 kWh\n14/03/2023 21:45:49 - Consumo atual: 996.00 kWh\n14/03/2023 21:45:50 - Consumo atual: 497.00 kWh\n14/03/2023 21:45:51 - Consumo atual: 736.00 kWh\n14/03/2023 21:45:52 - Consumo atual: 616.00 kWh\n14/03/2023 21:45:53 - Consumo atual: 119.00 kWh\n14/03/2023 21:45:54 - Consumo atual: 384.00 kWh\n14/03/2023 21:45:55 - Consumo atual: 151.00 kWh\n14/03/2023 21:47:56 - Consumo atual: 846.00 kWh\n14/03/2023 21:47:57 - Consumo atual: 318.00 kWh\n14/03/2023 21:47:58 - Consumo atual: 819.00 kWh\n14/03/2023 21:47:59 - Consumo atual: 298.00 kWh\n14/03/2023 21:48:00 - Consumo atual: 885.00 kWh\n14/03/2023 21:48:01 - Consumo atual: 900.00 kWh\n14/03/2023 21:48:02 - Consumo atual: 257.00 kWh\n14/03/2023 21:48:03 - Consumo atual: 357.00 kWh\n14/03/2023 21:48:04 - Consumo atual: 170.00 kWh\n14/03/2023 21:48:05 - Consumo atual: 459.00 kWh\n14/03/2023 21:48:06 - Consumo atual: 937.00 kWh\n14/03/2023 21:48:07 - Consumo atual: 133.00 kWh\n14/03/2023 21:48:08 - Consumo atual: 299.00 kWh\n14/03/2023 21:48:09 - Consumo atual: 899.00 kWh\n14/03/2023 21:48:10 - Consumo atual: 572.00 kWh\n14/03/2023 21:48:12 - Consumo atual: 413.00 kWh\n14/03/2023 21:48:13 - Consumo atual: 700.00 kWh\n14/03/2023 21:48:14 - Consumo atual: 114.00 kWh\n14/03/2023 21:48:15 - Consumo atual: 483.00 kWh\n14/03/2023 21:48:16 - Consumo atual: 370.00 kWh\n14/03/2023 21:48:17 - Consumo atual: 258.00 kWh\n14/03/2023 21:48:18 - Consumo atual: 505.00 kWh\n14/03/2023 21:48:19 - Consumo atual: 180.00 kWh\n14/03/2023 21:48:20 - Consumo atual: 452.00 kWh\n14/03/2023 21:48:21 - Consumo atual: 665.00 kWh\n14/03/2023 21:48:22 - Consumo atual: 999.00 kWh\n14/03/2023 21:48:23 - Consumo atual: 980.00 kWh\n14/03/2023 21:48:24 - Consumo atual: 538.00 kWh\n"
+                "consumo_kwh": 815,
+                "data_hora": "17/03/2023 13:38:40"
+            },
+            {
+                "consumo_kwh": 157,
+                "data_hora": "17/03/2023 13:38:50"
+            },
+            {
+                "consumo_kwh": 679,
+                "data_hora": "17/03/2023 13:39:00"
+            },
+            {
+                "consumo_kwh": 933,
+                "data_hora": "17/03/2023 13:39:10"
             }
-        ]
+        ],
+        "Valor_da_Fatura": "R$ 1292.00",
+        "alerta": "17/03/2023 13:39:10 - ALERTA: Consumo muito alto: 933.00 kWh",
+        "consumo_atual_kWh": 466,
+        "consumo_kwh": 933,
+        "consumo_total_kWh": 2584
     },
-    "56280824-c2ca-11ed-934e-001a7dda7112": {
-        "medidores": [
+    "11238aac-c459-11ed-aa40-d62ffdb8485d": {
+        "Fatura_Atual": [
             {
-                "alerta": "14/03/2023 21:45:04 - ALERTA: Consumo muito alto: 679.00 kWh",
-                "consumo_atual_kWh": 679,
-                "consumo_kwh": 679.0,
-                "consumo_total_kWh": 1358.0,
-                "fatura_a_pagar": 679.0,
-                "historico_consumo_kWh": "14/03/2023 20:11:20 - Consumo atual: 935.00 kWh \n 14/03/2023 21:08:19 - Consumo atual: 303.00 kWh\n14/03/2023 21:19:18 - Consumo atual: 149.00 kWh\n14/03/2023 21:42:45 - Consumo atual: 465.00 kWh\n14/03/2023 21:43:00 - Consumo atual: 514.00 kWh\n14/03/2023 21:43:01 - Consumo atual: 871.00 kWh\n14/03/2023 21:43:02 - Consumo atual: 447.00 kWh\n14/03/2023 21:43:03 - Consumo atual: 605.00 kWh\n14/03/2023 21:43:04 - Consumo atual: 447.00 kWh\n14/03/2023 21:43:05 - Consumo atual: 308.00 kWh\n14/03/2023 21:43:06 - Consumo atual: 754.00 kWh\n14/03/2023 21:43:07 - Consumo atual: 400.00 kWh\n14/03/2023 21:43:08 - Consumo atual: 232.00 kWh\n14/03/2023 21:43:09 - Consumo atual: 864.00 kWh\n14/03/2023 21:43:10 - Consumo atual: 821.00 kWh\n14/03/2023 21:43:11 - Consumo atual: 931.00 kWh\n14/03/2023 21:43:12 - Consumo atual: 284.00 kWh\n14/03/2023 21:43:13 - Consumo atual: 795.00 kWh\n14/03/2023 21:43:14 - Consumo atual: 706.00 kWh\n14/03/2023 21:43:15 - Consumo atual: 331.00 kWh\n14/03/2023 21:43:16 - Consumo atual: 748.00 kWh\n14/03/2023 21:43:17 - Consumo atual: 335.00 kWh\n14/03/2023 21:43:18 - Consumo atual: 798.00 kWh\n14/03/2023 21:43:19 - Consumo atual: 802.00 kWh\n14/03/2023 21:43:20 - Consumo atual: 306.00 kWh\n14/03/2023 21:43:21 - Consumo atual: 471.00 kWh\n14/03/2023 21:43:22 - Consumo atual: 741.00 kWh\n14/03/2023 21:43:23 - Consumo atual: 421.00 kWh\n14/03/2023 21:43:24 - Consumo atual: 535.00 kWh\n14/03/2023 21:43:26 - Consumo atual: 127.00 kWh\n14/03/2023 21:43:27 - Consumo atual: 940.00 kWh\n14/03/2023 21:43:28 - Consumo atual: 915.00 kWh\n14/03/2023 21:43:29 - Consumo atual: 780.00 kWh\n14/03/2023 21:43:30 - Consumo atual: 307.00 kWh\n14/03/2023 21:43:31 - Consumo atual: 654.00 kWh\n14/03/2023 21:43:32 - Consumo atual: 351.00 kWh\n14/03/2023 21:43:33 - Consumo atual: 288.00 kWh\n14/03/2023 21:43:34 - Consumo atual: 343.00 kWh\n14/03/2023 21:43:35 - Consumo atual: 359.00 kWh\n14/03/2023 21:43:36 - Consumo atual: 456.00 kWh\n14/03/2023 21:43:37 - Consumo atual: 449.00 kWh\n14/03/2023 21:43:38 - Consumo atual: 866.00 kWh\n14/03/2023 21:43:39 - Consumo atual: 864.00 kWh\n14/03/2023 21:43:40 - Consumo atual: 612.00 kWh\n14/03/2023 21:43:41 - Consumo atual: 870.00 kWh\n14/03/2023 21:43:42 - Consumo atual: 942.00 kWh\n14/03/2023 21:43:43 - Consumo atual: 197.00 kWh\n14/03/2023 21:43:44 - Consumo atual: 816.00 kWh\n14/03/2023 21:43:45 - Consumo atual: 918.00 kWh\n14/03/2023 21:43:46 - Consumo atual: 114.00 kWh\n14/03/2023 21:43:47 - Consumo atual: 988.00 kWh\n14/03/2023 21:43:48 - Consumo atual: 416.00 kWh\n14/03/2023 21:43:49 - Consumo atual: 234.00 kWh\n14/03/2023 21:43:50 - Consumo atual: 763.00 kWh\n14/03/2023 21:43:51 - Consumo atual: 456.00 kWh\n14/03/2023 21:43:52 - Consumo atual: 783.00 kWh\n14/03/2023 21:43:53 - Consumo atual: 253.00 kWh\n14/03/2023 21:43:55 - Consumo atual: 834.00 kWh\n14/03/2023 21:43:56 - Consumo atual: 359.00 kWh\n14/03/2023 21:43:57 - Consumo atual: 255.00 kWh\n14/03/2023 21:43:58 - Consumo atual: 985.00 kWh\n14/03/2023 21:43:59 - Consumo atual: 560.00 kWh\n14/03/2023 21:44:00 - Consumo atual: 144.00 kWh\n14/03/2023 21:44:01 - Consumo atual: 829.00 kWh\n14/03/2023 21:44:02 - Consumo atual: 834.00 kWh\n14/03/2023 21:44:03 - Consumo atual: 876.00 kWh\n14/03/2023 21:44:04 - Consumo atual: 833.00 kWh\n14/03/2023 21:44:05 - Consumo atual: 813.00 kWh\n14/03/2023 21:44:06 - Consumo atual: 489.00 kWh\n14/03/2023 21:44:07 - Consumo atual: 487.00 kWh\n14/03/2023 21:44:08 - Consumo atual: 206.00 kWh\n14/03/2023 21:44:09 - Consumo atual: 672.00 kWh\n14/03/2023 21:44:10 - Consumo atual: 561.00 kWh\n14/03/2023 21:44:11 - Consumo atual: 744.00 kWh\n14/03/2023 21:44:12 - Consumo atual: 835.00 kWh\n14/03/2023 21:44:13 - Consumo atual: 123.00 kWh\n14/03/2023 21:44:14 - Consumo atual: 201.00 kWh\n14/03/2023 21:44:15 - Consumo atual: 588.00 kWh\n14/03/2023 21:44:16 - Consumo atual: 254.00 kWh\n14/03/2023 21:44:17 - Consumo atual: 531.00 kWh\n14/03/2023 21:44:18 - Consumo atual: 943.00 kWh\n14/03/2023 21:44:19 - Consumo atual: 762.00 kWh\n14/03/2023 21:44:20 - Consumo atual: 785.00 kWh\n14/03/2023 21:44:21 - Consumo atual: 689.00 kWh\n14/03/2023 21:44:22 - Consumo atual: 893.00 kWh\n14/03/2023 21:44:23 - Consumo atual: 411.00 kWh\n14/03/2023 21:44:24 - Consumo atual: 441.00 kWh\n14/03/2023 21:44:25 - Consumo atual: 436.00 kWh\n14/03/2023 21:44:26 - Consumo atual: 304.00 kWh\n14/03/2023 21:44:27 - Consumo atual: 684.00 kWh\n14/03/2023 21:44:28 - Consumo atual: 153.00 kWh\n14/03/2023 21:44:29 - Consumo atual: 460.00 kWh\n14/03/2023 21:44:30 - Consumo atual: 237.00 kWh\n14/03/2023 21:44:31 - Consumo atual: 870.00 kWh\n14/03/2023 21:44:32 - Consumo atual: 932.00 kWh\n14/03/2023 21:44:33 - Consumo atual: 603.00 kWh\n14/03/2023 21:44:35 - Consumo atual: 533.00 kWh\n14/03/2023 21:44:36 - Consumo atual: 691.00 kWh\n14/03/2023 21:44:37 - Consumo atual: 375.00 kWh\n14/03/2023 21:44:38 - Consumo atual: 407.00 kWh\n14/03/2023 21:44:39 - Consumo atual: 355.00 kWh\n14/03/2023 21:44:40 - Consumo atual: 716.00 kWh\n14/03/2023 21:44:41 - Consumo atual: 337.00 kWh\n14/03/2023 21:44:42 - Consumo atual: 163.00 kWh\n14/03/2023 21:44:43 - Consumo atual: 883.00 kWh\n14/03/2023 21:44:44 - Consumo atual: 858.00 kWh\n14/03/2023 21:44:45 - Consumo atual: 855.00 kWh\n14/03/2023 21:44:46 - Consumo atual: 151.00 kWh\n14/03/2023 21:44:47 - Consumo atual: 346.00 kWh\n14/03/2023 21:44:48 - Consumo atual: 232.00 kWh\n14/03/2023 21:44:49 - Consumo atual: 490.00 kWh\n14/03/2023 21:44:50 - Consumo atual: 606.00 kWh\n14/03/2023 21:44:51 - Consumo atual: 568.00 kWh\n14/03/2023 21:44:52 - Consumo atual: 944.00 kWh\n14/03/2023 21:44:53 - Consumo atual: 788.00 kWh\n14/03/2023 21:44:54 - Consumo atual: 249.00 kWh\n14/03/2023 21:44:55 - Consumo atual: 163.00 kWh\n14/03/2023 21:44:56 - Consumo atual: 667.00 kWh\n14/03/2023 21:44:57 - Consumo atual: 951.00 kWh\n14/03/2023 21:44:58 - Consumo atual: 758.00 kWh\n14/03/2023 21:44:59 - Consumo atual: 875.00 kWh\n14/03/2023 21:45:00 - Consumo atual: 149.00 kWh\n14/03/2023 21:45:01 - Consumo atual: 440.00 kWh\n14/03/2023 21:45:02 - Consumo atual: 409.00 kWh\n14/03/2023 21:45:03 - Consumo atual: 328.00 kWh\n14/03/2023 21:45:04 - Consumo atual: 679.00 kWh\n"
+                "consumo_kwh": 61,
+                "data_hora": "17/03/2023 00:17:13"
+            },
+            {
+                "consumo_kwh": 961,
+                "data_hora": "17/03/2023 00:17:23"
+            },
+            {
+                "consumo_kwh": 483,
+                "data_hora": "17/03/2023 00:17:33"
+            },
+            {
+                "consumo_kwh": 265,
+                "data_hora": "17/03/2023 00:17:43"
+            },
+            {
+                "consumo_kwh": 297,
+                "data_hora": "17/03/2023 00:17:53"
+            },
+            {
+                "consumo_kwh": 257,
+                "data_hora": "17/03/2023 00:18:03"
+            },
+            {
+                "consumo_kwh": 51,
+                "data_hora": "17/03/2023 00:18:13"
+            },
+            {
+                "consumo_kwh": 843,
+                "data_hora": "17/03/2023 00:18:23"
+            },
+            {
+                "consumo_kwh": 539,
+                "data_hora": "17/03/2023 00:18:33"
+            },
+            {
+                "consumo_kwh": 909,
+                "data_hora": "17/03/2023 00:18:43"
+            },
+            {
+                "consumo_kwh": 419,
+                "data_hora": "17/03/2023 00:18:53"
+            },
+            {
+                "consumo_kwh": 491,
+                "data_hora": "17/03/2023 00:19:03"
+            },
+            {
+                "consumo_kwh": 413,
+                "data_hora": "17/03/2023 00:19:13"
+            },
+            {
+                "consumo_kwh": 943,
+                "data_hora": "17/03/2023 00:19:23"
+            },
+            {
+                "consumo_kwh": 227,
+                "data_hora": "17/03/2023 00:19:33"
+            },
+            {
+                "consumo_kwh": 581,
+                "data_hora": "17/03/2023 00:19:43"
+            },
+            {
+                "consumo_kwh": 587,
+                "data_hora": "17/03/2023 00:19:53"
+            },
+            {
+                "consumo_kwh": 533,
+                "data_hora": "17/03/2023 00:20:03"
+            },
+            {
+                "consumo_kwh": 719,
+                "data_hora": "17/03/2023 00:20:13"
+            },
+            {
+                "consumo_kwh": 505,
+                "data_hora": "17/03/2023 00:20:23"
+            },
+            {
+                "consumo_kwh": 45,
+                "data_hora": "17/03/2023 00:20:33"
+            },
+            {
+                "consumo_kwh": 559,
+                "data_hora": "17/03/2023 00:20:43"
+            },
+            {
+                "consumo_kwh": 303,
+                "data_hora": "17/03/2023 00:20:53"
+            },
+            {
+                "consumo_kwh": 653,
+                "data_hora": "17/03/2023 00:21:03"
+            },
+            {
+                "consumo_kwh": 155,
+                "data_hora": "17/03/2023 00:21:13"
+            },
+            {
+                "consumo_kwh": 939,
+                "data_hora": "17/03/2023 00:21:23"
             }
-        ]
+        ],
+        "Valor_da_Fatura": "R$ 6369.00",
+        "alerta": "17/03/2023 00:21:23 - ALERTA: Consumo muito alto: 939.00 kWh",
+        "consumo_atual_kWh": 469,
+        "consumo_kwh": 939,
+        "consumo_total_kWh": 12738
     },
-    "7d85aa46-c2d1-11ed-8ef3-001a7dda7112": {
-        "medidores": [
+    "191687de-c4ca-11ed-b752-d2f8338be868": {
+        "Fatura_Atual": [
             {
-                "alerta": "14/03/2023 22:34:20 - ALERTA: Consumo muito alto: 931.00 kWh",
-                "consumo_atual_kWh": 931,
-                "consumo_kwh": 931.0,
-                "consumo_total_kWh": 1862.0,
-                "fatura_a_pagar": 931.0,
-                "historico_consumo_kWh": "14/03/2023 22:34:20 - Consumo atual: 931.00 kWh\n"
+                "consumo_kwh": 747,
+                "data_hora": "17/03/2023 13:46:20"
+            },
+            {
+                "consumo_kwh": 973,
+                "data_hora": "17/03/2023 13:46:30"
+            },
+            {
+                "consumo_kwh": 325,
+                "data_hora": "17/03/2023 13:46:40"
+            },
+            {
+                "consumo_kwh": 909,
+                "data_hora": "17/03/2023 13:46:50"
+            },
+            {
+                "consumo_kwh": 591,
+                "data_hora": "17/03/2023 13:47:00"
+            },
+            {
+                "consumo_kwh": 319,
+                "data_hora": "17/03/2023 13:47:10"
+            },
+            {
+                "consumo_kwh": 673,
+                "data_hora": "17/03/2023 13:47:20"
+            },
+            {
+                "consumo_kwh": 201,
+                "data_hora": "17/03/2023 13:47:30"
+            },
+            {
+                "consumo_kwh": 215,
+                "data_hora": "17/03/2023 13:47:40"
+            },
+            {
+                "consumo_kwh": 919,
+                "data_hora": "17/03/2023 13:47:50"
+            },
+            {
+                "consumo_kwh": 833,
+                "data_hora": "17/03/2023 13:48:00"
+            },
+            {
+                "consumo_kwh": 357,
+                "data_hora": "17/03/2023 13:48:10"
+            },
+            {
+                "consumo_kwh": 893,
+                "data_hora": "17/03/2023 13:48:20"
+            },
+            {
+                "consumo_kwh": 25,
+                "data_hora": "17/03/2023 13:48:30"
+            },
+            {
+                "consumo_kwh": 685,
+                "data_hora": "17/03/2023 13:48:40"
+            },
+            {
+                "consumo_kwh": 455,
+                "data_hora": "17/03/2023 13:48:50"
+            },
+            {
+                "consumo_kwh": 67,
+                "data_hora": "17/03/2023 13:49:00"
+            },
+            {
+                "consumo_kwh": 343,
+                "data_hora": "17/03/2023 13:49:10"
+            },
+            {
+                "consumo_kwh": 515,
+                "data_hora": "17/03/2023 13:49:20"
+            },
+            {
+                "consumo_kwh": 913,
+                "data_hora": "17/03/2023 13:49:30"
+            },
+            {
+                "consumo_kwh": 839,
+                "data_hora": "17/03/2023 13:49:40"
+            },
+            {
+                "consumo_kwh": 739,
+                "data_hora": "17/03/2023 13:49:50"
+            },
+            {
+                "consumo_kwh": 713,
+                "data_hora": "17/03/2023 13:50:00"
+            },
+            {
+                "consumo_kwh": 521,
+                "data_hora": "17/03/2023 13:50:10"
+            },
+            {
+                "consumo_kwh": 787,
+                "data_hora": "17/03/2023 13:50:20"
+            },
+            {
+                "consumo_kwh": 757,
+                "data_hora": "17/03/2023 13:50:30"
+            },
+            {
+                "consumo_kwh": 663,
+                "data_hora": "17/03/2023 13:50:40"
+            },
+            {
+                "consumo_kwh": 513,
+                "data_hora": "17/03/2023 13:50:50"
+            },
+            {
+                "consumo_kwh": 465,
+                "data_hora": "17/03/2023 13:51:00"
+            },
+            {
+                "consumo_kwh": 967,
+                "data_hora": "17/03/2023 13:51:10"
+            },
+            {
+                "consumo_kwh": 457,
+                "data_hora": "17/03/2023 13:51:20"
+            },
+            {
+                "consumo_kwh": 439,
+                "data_hora": "17/03/2023 13:51:30"
+            },
+            {
+                "consumo_kwh": 269,
+                "data_hora": "17/03/2023 13:51:40"
             }
-        ]
+        ],
+        "Valor_da_Fatura": "R$ 9543.50",
+        "alerta": "",
+        "consumo_atual_kWh": 134,
+        "consumo_kwh": 269,
+        "consumo_total_kWh": 19087
     },
-    "84d1e668-c2cc-11ed-99ca-001a7dda7112": {
-        "medidores": [
+    "1c8a311f-c44b-11ed-b3cd-001a7dda7112": {
+        "Fatura_Atual": [
             {
-                "alerta": "",
-                "consumo_atual_kWh": 335,
-                "consumo_kwh": 335.0,
-                "consumo_total_kWh": 670.0,
-                "fatura_a_pagar": 335.0,
-                "historico_consumo_kWh": "14/03/2023 21:58:40 - Consumo atual: 335.00 kWh\n"
+                "consumo_kwh": 437,
+                "data_hora": "16/03/2023 19:37:19"
             }
-        ]
+        ],
+        "Valor_da_Fatura": "R$ 218.50",
+        "alerta": "",
+        "consumo_atual_kWh": 218,
+        "consumo_kwh": 437,
+        "consumo_total_kWh": 437
     },
-    "87e55fc2-c2cc-11ed-b2a7-001a7dda7112": {
-        "medidores": [
+    "35c3eaba-c4cb-11ed-b024-d2f8338be868": {
+        "Fatura_Atual": [
             {
-                "alerta": "14/03/2023 21:58:44 - ALERTA: Consumo muito alto: 625.00 kWh",
-                "consumo_atual_kWh": 625,
-                "consumo_kwh": 625.0,
-                "consumo_total_kWh": 1250.0,
-                "fatura_a_pagar": 625.0,
-                "historico_consumo_kWh": "14/03/2023 21:58:44 - Consumo atual: 625.00 kWh\n"
+                "consumo_kwh": 749,
+                "data_hora": "17/03/2023 13:54:17"
+            },
+            {
+                "consumo_kwh": 801,
+                "data_hora": "17/03/2023 13:54:27"
+            },
+            {
+                "consumo_kwh": 43,
+                "data_hora": "17/03/2023 13:54:37"
+            },
+            {
+                "consumo_kwh": 43,
+                "data_hora": "17/03/2023 13:54:47"
+            },
+            {
+                "consumo_kwh": 283,
+                "data_hora": "17/03/2023 13:54:57"
             }
-        ]
+        ],
+        "Valor_da_Fatura": "R$ 959.50",
+        "alerta": "",
+        "consumo_atual_kWh": 139,
+        "consumo_kwh": 283,
+        "consumo_total_kWh": 1919
+    },
+    "425149e4-c458-11ed-be6b-d62ffdb8485d": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 949,
+                "data_hora": "17/03/2023 00:11:26"
+            },
+            {
+                "consumo_kwh": 843,
+                "data_hora": "17/03/2023 00:11:36"
+            },
+            {
+                "consumo_kwh": 121,
+                "data_hora": "17/03/2023 00:11:46"
+            },
+            {
+                "consumo_kwh": 463,
+                "data_hora": "17/03/2023 00:11:56"
+            },
+            {
+                "consumo_kwh": 403,
+                "data_hora": "17/03/2023 00:12:06"
+            },
+            {
+                "consumo_kwh": 61,
+                "data_hora": "17/03/2023 00:12:16"
+            },
+            {
+                "consumo_kwh": 967,
+                "data_hora": "17/03/2023 00:12:26"
+            },
+            {
+                "consumo_kwh": 293,
+                "data_hora": "17/03/2023 00:12:36"
+            },
+            {
+                "consumo_kwh": 807,
+                "data_hora": "17/03/2023 00:12:46"
+            },
+            {
+                "consumo_kwh": 731,
+                "data_hora": "17/03/2023 00:12:56"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 2819.00",
+        "alerta": "17/03/2023 00:12:56 - ALERTA: Consumo muito alto: 731.00 kWh",
+        "consumo_atual_kWh": 365,
+        "consumo_kwh": 731,
+        "consumo_total_kWh": 5638
+    },
+    "77cdfdc4-c44a-11ed-addc-001a7dda7112": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 437,
+                "data_hora": "16/03/2023 19:32:43"
+            },
+            {
+                "consumo_kwh": 565,
+                "data_hora": "16/03/2023 19:32:53"
+            },
+            {
+                "consumo_kwh": 485,
+                "data_hora": "16/03/2023 19:33:03"
+            },
+            {
+                "consumo_kwh": 383,
+                "data_hora": "16/03/2023 19:33:13"
+            },
+            {
+                "consumo_kwh": 555,
+                "data_hora": "16/03/2023 19:33:23"
+            },
+            {
+                "consumo_kwh": 525,
+                "data_hora": "16/03/2023 19:33:33"
+            },
+            {
+                "consumo_kwh": 607,
+                "data_hora": "16/03/2023 19:33:43"
+            },
+            {
+                "consumo_kwh": 765,
+                "data_hora": "16/03/2023 19:33:53"
+            },
+            {
+                "consumo_kwh": 199,
+                "data_hora": "16/03/2023 19:34:03"
+            },
+            {
+                "consumo_kwh": 985,
+                "data_hora": "16/03/2023 19:34:13"
+            },
+            {
+                "consumo_kwh": 557,
+                "data_hora": "16/03/2023 19:34:23"
+            },
+            {
+                "consumo_kwh": 215,
+                "data_hora": "16/03/2023 19:34:33"
+            },
+            {
+                "consumo_kwh": 917,
+                "data_hora": "16/03/2023 19:34:43"
+            },
+            {
+                "consumo_kwh": 773,
+                "data_hora": "16/03/2023 19:34:53"
+            },
+            {
+                "consumo_kwh": 807,
+                "data_hora": "16/03/2023 19:35:03"
+            },
+            {
+                "consumo_kwh": 5,
+                "data_hora": "16/03/2023 19:35:13"
+            },
+            {
+                "consumo_kwh": 93,
+                "data_hora": "16/03/2023 19:35:23"
+            },
+            {
+                "consumo_kwh": 557,
+                "data_hora": "16/03/2023 19:35:33"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 4715.00",
+        "alerta": "16/03/2023 19:35:33 - ALERTA: Consumo muito alto: 557.00 kWh",
+        "consumo_atual_kWh": 278,
+        "consumo_kwh": 557,
+        "consumo_total_kWh": 9430
+    },
+    "77e09240-c4cb-11ed-8d73-d2f8338be868": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 393,
+                "data_hora": "17/03/2023 13:56:08"
+            },
+            {
+                "consumo_kwh": 57,
+                "data_hora": "17/03/2023 13:56:18"
+            },
+            {
+                "consumo_kwh": 381,
+                "data_hora": "17/03/2023 13:56:28"
+            },
+            {
+                "consumo_kwh": 169,
+                "data_hora": "17/03/2023 13:56:38"
+            },
+            {
+                "consumo_kwh": 209,
+                "data_hora": "17/03/2023 13:56:48"
+            },
+            {
+                "consumo_kwh": 645,
+                "data_hora": "17/03/2023 13:56:58"
+            },
+            {
+                "consumo_kwh": 671,
+                "data_hora": "17/03/2023 13:57:08"
+            },
+            {
+                "consumo_kwh": 105,
+                "data_hora": "17/03/2023 13:57:18"
+            },
+            {
+                "consumo_kwh": 761,
+                "data_hora": "17/03/2023 13:57:28"
+            },
+            {
+                "consumo_kwh": 991,
+                "data_hora": "17/03/2023 13:57:38"
+            },
+            {
+                "consumo_kwh": 837,
+                "data_hora": "17/03/2023 13:57:48"
+            },
+            {
+                "consumo_kwh": 189,
+                "data_hora": "17/03/2023 13:57:58"
+            },
+            {
+                "consumo_kwh": 763,
+                "data_hora": "17/03/2023 13:58:08"
+            },
+            {
+                "consumo_kwh": 743,
+                "data_hora": "17/03/2023 13:58:18"
+            },
+            {
+                "consumo_kwh": 63,
+                "data_hora": "17/03/2023 13:58:28"
+            },
+            {
+                "consumo_kwh": 845,
+                "data_hora": "17/03/2023 13:58:38"
+            },
+            {
+                "consumo_kwh": 645,
+                "data_hora": "17/03/2023 13:58:48"
+            },
+            {
+                "consumo_kwh": 689,
+                "data_hora": "17/03/2023 13:58:58"
+            },
+            {
+                "consumo_kwh": 961,
+                "data_hora": "17/03/2023 13:59:08"
+            },
+            {
+                "consumo_kwh": 107,
+                "data_hora": "17/03/2023 13:59:18"
+            },
+            {
+                "consumo_kwh": 315,
+                "data_hora": "17/03/2023 13:59:28"
+            },
+            {
+                "consumo_kwh": 521,
+                "data_hora": "17/03/2023 13:59:38"
+            },
+            {
+                "consumo_kwh": 127,
+                "data_hora": "17/03/2023 13:59:48"
+            },
+            {
+                "consumo_kwh": 113,
+                "data_hora": "17/03/2023 13:59:58"
+            },
+            {
+                "consumo_kwh": 423,
+                "data_hora": "17/03/2023 14:00:08"
+            },
+            {
+                "consumo_kwh": 469,
+                "data_hora": "17/03/2023 14:00:18"
+            },
+            {
+                "consumo_kwh": 559,
+                "data_hora": "17/03/2023 14:00:28"
+            },
+            {
+                "consumo_kwh": 317,
+                "data_hora": "17/03/2023 14:00:38"
+            },
+            {
+                "consumo_kwh": 519,
+                "data_hora": "17/03/2023 14:00:48"
+            },
+            {
+                "consumo_kwh": 159,
+                "data_hora": "17/03/2023 14:00:58"
+            },
+            {
+                "consumo_kwh": 461,
+                "data_hora": "17/03/2023 14:01:08"
+            },
+            {
+                "consumo_kwh": 477,
+                "data_hora": "17/03/2023 14:01:18"
+            },
+            {
+                "consumo_kwh": 233,
+                "data_hora": "17/03/2023 14:01:29"
+            },
+            {
+                "consumo_kwh": 977,
+                "data_hora": "17/03/2023 14:01:39"
+            },
+            {
+                "consumo_kwh": 417,
+                "data_hora": "17/03/2023 14:01:49"
+            },
+            {
+                "consumo_kwh": 423,
+                "data_hora": "17/03/2023 14:01:59"
+            },
+            {
+                "consumo_kwh": 879,
+                "data_hora": "17/03/2023 14:02:09"
+            },
+            {
+                "consumo_kwh": 87,
+                "data_hora": "17/03/2023 14:02:19"
+            },
+            {
+                "consumo_kwh": 167,
+                "data_hora": "17/03/2023 14:02:29"
+            },
+            {
+                "consumo_kwh": 979,
+                "data_hora": "17/03/2023 14:02:39"
+            },
+            {
+                "consumo_kwh": 787,
+                "data_hora": "17/03/2023 14:02:49"
+            },
+            {
+                "consumo_kwh": 727,
+                "data_hora": "17/03/2023 14:02:59"
+            },
+            {
+                "consumo_kwh": 839,
+                "data_hora": "17/03/2023 14:03:09"
+            },
+            {
+                "consumo_kwh": 377,
+                "data_hora": "17/03/2023 14:03:19"
+            },
+            {
+                "consumo_kwh": 915,
+                "data_hora": "17/03/2023 14:03:29"
+            },
+            {
+                "consumo_kwh": 599,
+                "data_hora": "17/03/2023 14:03:39"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 11545.00",
+        "alerta": "17/03/2023 14:03:39 - ALERTA: Consumo muito alto: 599.00 kWh",
+        "consumo_atual_kWh": 297,
+        "consumo_kwh": 599,
+        "consumo_total_kWh": 23090
+    },
+    "89739250-c4cb-11ed-b555-d2f8338be868": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 909,
+                "data_hora": "17/03/2023 13:56:38"
+            },
+            {
+                "consumo_kwh": 921,
+                "data_hora": "17/03/2023 13:56:48"
+            },
+            {
+                "consumo_kwh": 689,
+                "data_hora": "17/03/2023 13:56:58"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 1259.50",
+        "alerta": "17/03/2023 13:56:58 - ALERTA: Consumo muito alto: 689.00 kWh",
+        "consumo_atual_kWh": 344,
+        "consumo_kwh": 689,
+        "consumo_total_kWh": 2519
+    },
+    "93e07415-c516-11ed-950c-001a7dda7112": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 853,
+                "data_hora": "17/03/2023 19:53:50"
+            },
+            {
+                "consumo_kwh": 43,
+                "data_hora": "17/03/2023 19:54:00"
+            },
+            {
+                "consumo_kwh": 591,
+                "data_hora": "17/03/2023 19:54:39"
+            },
+            {
+                "consumo_kwh": 819,
+                "data_hora": "17/03/2023 19:55:25"
+            },
+            {
+                "consumo_kwh": 159,
+                "data_hora": "17/03/2023 19:55:50"
+            },
+            {
+                "consumo_kwh": 57,
+                "data_hora": "17/03/2023 19:56:09"
+            },
+            {
+                "consumo_kwh": 297,
+                "data_hora": "17/03/2023 19:56:23"
+            },
+            {
+                "consumo_kwh": 657,
+                "data_hora": "17/03/2023 19:56:40"
+            },
+            {
+                "consumo_kwh": 971,
+                "data_hora": "17/03/2023 19:56:54"
+            },
+            {
+                "consumo_kwh": 527,
+                "data_hora": "17/03/2023 19:57:14"
+            },
+            {
+                "consumo_kwh": 447,
+                "data_hora": "17/03/2023 19:57:35"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 2710.50",
+        "alerta": "",
+        "consumo_atual_kWh": 223,
+        "consumo_kwh": 447,
+        "consumo_total_kWh": 5421
+    },
+    "aaa9838a-c458-11ed-8d91-d62ffdb8485d": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 859,
+                "data_hora": "17/03/2023 00:14:21"
+            },
+            {
+                "consumo_kwh": 881,
+                "data_hora": "17/03/2023 00:14:31"
+            },
+            {
+                "consumo_kwh": 45,
+                "data_hora": "17/03/2023 00:14:41"
+            },
+            {
+                "consumo_kwh": 937,
+                "data_hora": "17/03/2023 00:14:51"
+            },
+            {
+                "consumo_kwh": 785,
+                "data_hora": "17/03/2023 00:15:01"
+            },
+            {
+                "consumo_kwh": 695,
+                "data_hora": "17/03/2023 00:15:11"
+            },
+            {
+                "consumo_kwh": 593,
+                "data_hora": "17/03/2023 00:15:21"
+            },
+            {
+                "consumo_kwh": 67,
+                "data_hora": "17/03/2023 00:15:31"
+            },
+            {
+                "consumo_kwh": 605,
+                "data_hora": "17/03/2023 00:15:41"
+            },
+            {
+                "consumo_kwh": 3,
+                "data_hora": "17/03/2023 00:15:51"
+            },
+            {
+                "consumo_kwh": 847,
+                "data_hora": "17/03/2023 00:16:01"
+            },
+            {
+                "consumo_kwh": 461,
+                "data_hora": "17/03/2023 00:16:11"
+            },
+            {
+                "consumo_kwh": 39,
+                "data_hora": "17/03/2023 00:16:21"
+            },
+            {
+                "consumo_kwh": 575,
+                "data_hora": "17/03/2023 00:16:31"
+            },
+            {
+                "consumo_kwh": 671,
+                "data_hora": "17/03/2023 00:16:41"
+            },
+            {
+                "consumo_kwh": 53,
+                "data_hora": "17/03/2023 00:16:51"
+            },
+            {
+                "consumo_kwh": 703,
+                "data_hora": "17/03/2023 00:17:01"
+            },
+            {
+                "consumo_kwh": 659,
+                "data_hora": "17/03/2023 00:17:11"
+            },
+            {
+                "consumo_kwh": 585,
+                "data_hora": "17/03/2023 00:17:21"
+            },
+            {
+                "consumo_kwh": 977,
+                "data_hora": "17/03/2023 00:17:31"
+            },
+            {
+                "consumo_kwh": 55,
+                "data_hora": "17/03/2023 00:17:42"
+            },
+            {
+                "consumo_kwh": 293,
+                "data_hora": "17/03/2023 00:17:52"
+            },
+            {
+                "consumo_kwh": 307,
+                "data_hora": "17/03/2023 00:18:02"
+            },
+            {
+                "consumo_kwh": 763,
+                "data_hora": "17/03/2023 00:18:12"
+            },
+            {
+                "consumo_kwh": 89,
+                "data_hora": "17/03/2023 00:18:22"
+            },
+            {
+                "consumo_kwh": 937,
+                "data_hora": "17/03/2023 00:18:32"
+            },
+            {
+                "consumo_kwh": 869,
+                "data_hora": "17/03/2023 00:18:42"
+            },
+            {
+                "consumo_kwh": 483,
+                "data_hora": "17/03/2023 00:18:52"
+            },
+            {
+                "consumo_kwh": 153,
+                "data_hora": "17/03/2023 00:19:02"
+            },
+            {
+                "consumo_kwh": 779,
+                "data_hora": "17/03/2023 00:19:12"
+            },
+            {
+                "consumo_kwh": 369,
+                "data_hora": "17/03/2023 00:19:22"
+            },
+            {
+                "consumo_kwh": 755,
+                "data_hora": "17/03/2023 00:19:32"
+            },
+            {
+                "consumo_kwh": 539,
+                "data_hora": "17/03/2023 00:19:42"
+            },
+            {
+                "consumo_kwh": 495,
+                "data_hora": "17/03/2023 00:19:52"
+            },
+            {
+                "consumo_kwh": 461,
+                "data_hora": "17/03/2023 00:20:02"
+            },
+            {
+                "consumo_kwh": 149,
+                "data_hora": "17/03/2023 00:20:12"
+            },
+            {
+                "consumo_kwh": 623,
+                "data_hora": "17/03/2023 00:20:22"
+            },
+            {
+                "consumo_kwh": 299,
+                "data_hora": "17/03/2023 00:20:32"
+            },
+            {
+                "consumo_kwh": 293,
+                "data_hora": "17/03/2023 00:20:42"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 9875.50",
+        "alerta": "",
+        "consumo_atual_kWh": 146,
+        "consumo_kwh": 293,
+        "consumo_total_kWh": 19751
+    },
+    "ad091664-c4ca-11ed-bee1-d2f8338be868": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 575,
+                "data_hora": "17/03/2023 13:50:28"
+            },
+            {
+                "consumo_kwh": 243,
+                "data_hora": "17/03/2023 13:50:38"
+            },
+            {
+                "consumo_kwh": 847,
+                "data_hora": "17/03/2023 13:50:48"
+            },
+            {
+                "consumo_kwh": 539,
+                "data_hora": "17/03/2023 13:50:58"
+            },
+            {
+                "consumo_kwh": 583,
+                "data_hora": "17/03/2023 13:51:08"
+            },
+            {
+                "consumo_kwh": 759,
+                "data_hora": "17/03/2023 13:51:18"
+            },
+            {
+                "consumo_kwh": 319,
+                "data_hora": "17/03/2023 13:51:28"
+            },
+            {
+                "consumo_kwh": 293,
+                "data_hora": "17/03/2023 13:51:38"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 2079.00",
+        "alerta": "",
+        "consumo_atual_kWh": 144,
+        "consumo_kwh": 293,
+        "consumo_total_kWh": 4158
+    },
+    "bcb0a2c8-c44a-11ed-9c89-001a7dda7112": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 29,
+                "data_hora": "16/03/2023 19:34:39"
+            },
+            {
+                "consumo_kwh": 127,
+                "data_hora": "16/03/2023 19:34:49"
+            },
+            {
+                "consumo_kwh": 923,
+                "data_hora": "16/03/2023 19:34:59"
+            },
+            {
+                "consumo_kwh": 67,
+                "data_hora": "16/03/2023 19:35:09"
+            },
+            {
+                "consumo_kwh": 759,
+                "data_hora": "16/03/2023 19:35:19"
+            },
+            {
+                "consumo_kwh": 237,
+                "data_hora": "16/03/2023 19:35:29"
+            },
+            {
+                "consumo_kwh": 883,
+                "data_hora": "16/03/2023 19:35:39"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 1512.50",
+        "alerta": "16/03/2023 19:35:39 - ALERTA: Consumo muito alto: 883.00 kWh",
+        "consumo_atual_kWh": 441,
+        "consumo_kwh": 883,
+        "consumo_total_kWh": 3025
+    },
+    "c3063696-c4c9-11ed-94e1-d2f8338be868": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 173,
+                "data_hora": "17/03/2023 13:43:55"
+            },
+            {
+                "consumo_kwh": 5,
+                "data_hora": "17/03/2023 13:44:05"
+            },
+            {
+                "consumo_kwh": 21,
+                "data_hora": "17/03/2023 13:44:15"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 99.50",
+        "alerta": "",
+        "consumo_atual_kWh": 10,
+        "consumo_kwh": 21,
+        "consumo_total_kWh": 199
+    },
+    "c833fa44-c4ca-11ed-982d-d2f8338be868": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 917,
+                "data_hora": "17/03/2023 13:51:13"
+            },
+            {
+                "consumo_kwh": 597,
+                "data_hora": "17/03/2023 13:51:23"
+            },
+            {
+                "consumo_kwh": 363,
+                "data_hora": "17/03/2023 13:51:34"
+            },
+            {
+                "consumo_kwh": 523,
+                "data_hora": "17/03/2023 13:51:44"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 1200.00",
+        "alerta": "17/03/2023 13:51:44 - ALERTA: Consumo muito alto: 523.00 kWh",
+        "consumo_atual_kWh": 259,
+        "consumo_kwh": 523,
+        "consumo_total_kWh": 2400
+    },
+    "e6b5f87a-c45a-11ed-92c9-d62ffdb8485d": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 919,
+                "data_hora": "17/03/2023 00:30:21"
+            },
+            {
+                "consumo_kwh": 889,
+                "data_hora": "17/03/2023 00:30:31"
+            },
+            {
+                "consumo_kwh": 31,
+                "data_hora": "17/03/2023 00:30:41"
+            },
+            {
+                "consumo_kwh": 767,
+                "data_hora": "17/03/2023 00:30:51"
+            },
+            {
+                "consumo_kwh": 35,
+                "data_hora": "17/03/2023 00:31:01"
+            },
+            {
+                "consumo_kwh": 719,
+                "data_hora": "17/03/2023 00:31:11"
+            },
+            {
+                "consumo_kwh": 735,
+                "data_hora": "17/03/2023 00:31:21"
+            },
+            {
+                "consumo_kwh": 399,
+                "data_hora": "17/03/2023 00:31:31"
+            },
+            {
+                "consumo_kwh": 315,
+                "data_hora": "17/03/2023 00:31:41"
+            },
+            {
+                "consumo_kwh": 935,
+                "data_hora": "17/03/2023 00:31:51"
+            },
+            {
+                "consumo_kwh": 581,
+                "data_hora": "17/03/2023 00:32:01"
+            },
+            {
+                "consumo_kwh": 975,
+                "data_hora": "17/03/2023 00:32:11"
+            },
+            {
+                "consumo_kwh": 895,
+                "data_hora": "17/03/2023 00:32:21"
+            },
+            {
+                "consumo_kwh": 725,
+                "data_hora": "17/03/2023 00:32:31"
+            },
+            {
+                "consumo_kwh": 727,
+                "data_hora": "17/03/2023 00:32:41"
+            },
+            {
+                "consumo_kwh": 603,
+                "data_hora": "17/03/2023 00:32:51"
+            },
+            {
+                "consumo_kwh": 543,
+                "data_hora": "17/03/2023 00:33:01"
+            },
+            {
+                "consumo_kwh": 471,
+                "data_hora": "17/03/2023 00:33:11"
+            },
+            {
+                "consumo_kwh": 79,
+                "data_hora": "17/03/2023 00:33:21"
+            },
+            {
+                "consumo_kwh": 829,
+                "data_hora": "17/03/2023 00:33:31"
+            },
+            {
+                "consumo_kwh": 445,
+                "data_hora": "17/03/2023 00:33:41"
+            },
+            {
+                "consumo_kwh": 65,
+                "data_hora": "17/03/2023 00:33:51"
+            },
+            {
+                "consumo_kwh": 873,
+                "data_hora": "17/03/2023 00:34:01"
+            },
+            {
+                "consumo_kwh": 435,
+                "data_hora": "17/03/2023 00:34:11"
+            },
+            {
+                "consumo_kwh": 651,
+                "data_hora": "17/03/2023 00:34:21"
+            },
+            {
+                "consumo_kwh": 157,
+                "data_hora": "17/03/2023 00:34:31"
+            },
+            {
+                "consumo_kwh": 275,
+                "data_hora": "17/03/2023 00:34:41"
+            },
+            {
+                "consumo_kwh": 371,
+                "data_hora": "17/03/2023 00:34:51"
+            },
+            {
+                "consumo_kwh": 395,
+                "data_hora": "17/03/2023 00:35:01"
+            },
+            {
+                "consumo_kwh": 267,
+                "data_hora": "17/03/2023 00:35:11"
+            },
+            {
+                "consumo_kwh": 321,
+                "data_hora": "17/03/2023 00:35:21"
+            },
+            {
+                "consumo_kwh": 829,
+                "data_hora": "17/03/2023 00:35:31"
+            },
+            {
+                "consumo_kwh": 59,
+                "data_hora": "17/03/2023 00:35:41"
+            },
+            {
+                "consumo_kwh": 363,
+                "data_hora": "17/03/2023 00:35:51"
+            },
+            {
+                "consumo_kwh": 287,
+                "data_hora": "17/03/2023 00:36:01"
+            },
+            {
+                "consumo_kwh": 649,
+                "data_hora": "17/03/2023 00:36:11"
+            },
+            {
+                "consumo_kwh": 463,
+                "data_hora": "17/03/2023 00:36:21"
+            },
+            {
+                "consumo_kwh": 603,
+                "data_hora": "17/03/2023 00:36:31"
+            },
+            {
+                "consumo_kwh": 617,
+                "data_hora": "17/03/2023 00:36:41"
+            },
+            {
+                "consumo_kwh": 119,
+                "data_hora": "17/03/2023 00:36:51"
+            },
+            {
+                "consumo_kwh": 55,
+                "data_hora": "17/03/2023 00:37:01"
+            },
+            {
+                "consumo_kwh": 861,
+                "data_hora": "17/03/2023 00:37:11"
+            },
+            {
+                "consumo_kwh": 959,
+                "data_hora": "17/03/2023 00:37:21"
+            },
+            {
+                "consumo_kwh": 391,
+                "data_hora": "17/03/2023 00:37:31"
+            },
+            {
+                "consumo_kwh": 777,
+                "data_hora": "17/03/2023 00:37:41"
+            },
+            {
+                "consumo_kwh": 603,
+                "data_hora": "17/03/2023 00:37:51"
+            },
+            {
+                "consumo_kwh": 701,
+                "data_hora": "17/03/2023 00:38:01"
+            },
+            {
+                "consumo_kwh": 995,
+                "data_hora": "17/03/2023 00:38:11"
+            },
+            {
+                "consumo_kwh": 667,
+                "data_hora": "17/03/2023 00:38:22"
+            },
+            {
+                "consumo_kwh": 529,
+                "data_hora": "17/03/2023 00:38:32"
+            },
+            {
+                "consumo_kwh": 609,
+                "data_hora": "17/03/2023 00:38:42"
+            },
+            {
+                "consumo_kwh": 939,
+                "data_hora": "17/03/2023 00:38:52"
+            },
+            {
+                "consumo_kwh": 833,
+                "data_hora": "17/03/2023 00:39:02"
+            },
+            {
+                "consumo_kwh": 777,
+                "data_hora": "17/03/2023 00:39:12"
+            },
+            {
+                "consumo_kwh": 111,
+                "data_hora": "17/03/2023 00:39:22"
+            },
+            {
+                "consumo_kwh": 161,
+                "data_hora": "17/03/2023 00:39:32"
+            },
+            {
+                "consumo_kwh": 643,
+                "data_hora": "17/03/2023 00:39:42"
+            },
+            {
+                "consumo_kwh": 361,
+                "data_hora": "17/03/2023 00:39:52"
+            },
+            {
+                "consumo_kwh": 471,
+                "data_hora": "17/03/2023 00:40:02"
+            },
+            {
+                "consumo_kwh": 651,
+                "data_hora": "17/03/2023 00:40:12"
+            },
+            {
+                "consumo_kwh": 719,
+                "data_hora": "17/03/2023 00:40:22"
+            },
+            {
+                "consumo_kwh": 787,
+                "data_hora": "17/03/2023 00:40:32"
+            },
+            {
+                "consumo_kwh": 211,
+                "data_hora": "17/03/2023 00:40:42"
+            },
+            {
+                "consumo_kwh": 763,
+                "data_hora": "17/03/2023 00:40:52"
+            },
+            {
+                "consumo_kwh": 527,
+                "data_hora": "17/03/2023 00:41:02"
+            },
+            {
+                "consumo_kwh": 95,
+                "data_hora": "17/03/2023 00:41:12"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 17806.00",
+        "alerta": "",
+        "consumo_atual_kWh": 47,
+        "consumo_kwh": 95,
+        "consumo_total_kWh": 35612
+    },
+    "edece228-c4ca-11ed-8349-d2f8338be868": {
+        "Fatura_Atual": [
+            {
+                "consumo_kwh": 91,
+                "data_hora": "17/03/2023 13:52:17"
+            },
+            {
+                "consumo_kwh": 279,
+                "data_hora": "17/03/2023 13:52:27"
+            },
+            {
+                "consumo_kwh": 113,
+                "data_hora": "17/03/2023 13:52:37"
+            },
+            {
+                "consumo_kwh": 593,
+                "data_hora": "17/03/2023 13:52:47"
+            },
+            {
+                "consumo_kwh": 859,
+                "data_hora": "17/03/2023 13:52:57"
+            },
+            {
+                "consumo_kwh": 155,
+                "data_hora": "17/03/2023 13:53:07"
+            }
+        ],
+        "Valor_da_Fatura": "R$ 1045.00",
+        "alerta": "",
+        "consumo_atual_kWh": 77,
+        "consumo_kwh": 155,
+        "consumo_total_kWh": 2090
     }
 }

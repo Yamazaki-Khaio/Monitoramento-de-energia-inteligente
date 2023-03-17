@@ -5,10 +5,8 @@ import json
 import os
 HOST = "0.0.0.0"
 PORT = 5000
-MAX_BUFFER_SIZE = 1024
-database = {}
+MAX_BUFFER_SIZE = 4092
 body = None
-
 def main():
     initialize_database()
     start_server()
@@ -26,7 +24,7 @@ def initialize_database():
 # Ler conteúdo do arquivo json
 def read_database():
     try:
-        with open('db.json', 'r') as db:
+        with open("db.json", "r") as db:
             storage_file = db.read()
             if storage_file.strip() == "":
                 # arquivo vazio
@@ -41,12 +39,11 @@ def read_database():
     except FileNotFoundError:
         # arquivo não encontrado
         return {}
-
-
 # Escrever conteúdo no arquivo json
-def write_database(storage_file):
-    with open("db.json", "w") as file:
-        json.dump(storage_file, file, indent=4, sort_keys=True)
+def write_database(data):
+    with open('db.json', 'w') as db_file:
+        json.dump(data, db_file, indent=4, sort_keys=True)
+
 
 
 def create_headers(status_code: int, status_text: str, message_body="") -> bytes:
@@ -57,7 +54,7 @@ def create_headers(status_code: int, status_text: str, message_body="") -> bytes
     response_status_text = status_text
     response_content_type = "application/json; encoding=utf8"
     response_connection = "close"
-    message_body_bytes = message_body.encode('utf-8') if message_body else body.encode('utf-8') if body else b''
+    message_body_bytes = message_body.encode('utf-8') if message_body else ''.join(body).encode('utf-8') if body else b''
     response_content_length = len(message_body_bytes)
 
     # Create seções
@@ -118,8 +115,7 @@ def client_thread(client_socket, ip, port):
     # Listen dos dados recebidos
     response_headers = None
     data = receive_data(client_socket)
-    print(data)
-    print(data[18:])
+    print(data)   
 
     if data:
 
@@ -195,20 +191,19 @@ def do_GET(data: list):
 
 # Processo de solicitação do tipo Post
 def do_POST(data: list):
-    content = get_content(data)
     global body
-    body = data[18:]
-    if content == None:
-        return create_headers(400, "Bad Request")
 
+    body = data[5:]
+    id = data[1].strip('/')
+
+    # Aqui está o novo código para armazenar o conteúdo recebido:
     storage_data = read_database()
+    storage_data[id] = json.loads(' '.join(body))
+    write_database(storage_data)
 
-    if content in storage_data:
-        return create_headers(409, "Conflict")
-    else:
-        storage_data[content] = ""
-        write_database(storage_data)
-        return create_headers(201, "Created")
+    # Criar e enviar a resposta
+    response_body = json.dumps({"status": "ok"})
+    return create_headers(200, "OK", response_body)
 
 # Processo de solicitação do tipo PUT
 def do_PUT(data: list):
