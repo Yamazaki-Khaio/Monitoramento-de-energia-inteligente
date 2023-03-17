@@ -1,6 +1,9 @@
 # Monitoramento-de-energia-inteligente
 Repositório dedicado ao problema 1 da disciplina de Concorrência e Conectividade
 
+# Diagrama sequencial
+![Diagrama sequencial](https://github.com/Yamazaki-Khaio/Monitoramento-de-energia-inteligente/blob/main/Diagrama%20sequencial.png)
+
 # Requisitos 
 PYTHON 
 
