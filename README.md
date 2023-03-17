@@ -5,7 +5,11 @@ Repositório dedicado ao problema 1 da disciplina de Concorrência e Conectivida
 ![Diagrama sequencial](https://github.com/Yamazaki-Khaio/Monitoramento-de-energia-inteligente/blob/main/Diagrama%20sequencial.png)
 
 # Requisitos 
-PYTHON 
+PYTHON ou DOCKER
+
+# Docker
+1. O servidor pode ser executado como imagem docker ultizando o comando docker run -p 5000:5000 -v \endereço_onde_está_salvo_o_arquivo_.json_para_persistencia_de_dados/db.json:/local_dentro_do_container/db.json nome_do_repositorio:nome_da_imagem
+2. O medidor pode ser executado como imagem docker ultilizando o comando docker run --it --net=host nome_do_repositorio:nome_da_imagem
 
 # Organização das pastas
 A solução está organizada em 1 pastas e dois arquivos, com o Diagrama de Sequência básico da arquitetura.
