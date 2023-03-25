@@ -7,6 +7,8 @@ Repositório dedicado ao problema 1 da disciplina de Concorrência e Conectivida
 # Requisitos 
 PYTHON ou DOCKER
 
+# 
+
 # Docker
 1. Repoitorio no dockerhub: https://hub.docker.com/repository/docker/khaiioy/pbl1/general
 2. A imagem docker pode ser criada diretamente pelo dockerfile que se encontra dentro da pasta models
@@ -15,7 +17,7 @@ PYTHON ou DOCKER
 5. O servidor e os medidores podem ser simplesmente iniciados via portainer via imagem docker
 
 # Organização das pastas
-A solução está organizada em 1 pastas e dois arquivos, com o Diagrama de Sequência básico da arquitetura.
+A solução está organizada duas pastas(pythonProject/models) e três arquivos executavéis, com o Diagrama de Sequência básico da arquitetura, executaveis python do servidor, medidor e usuarioe tambem contém dois arquivos dockerfiles para criação da imagem do Servidor e Medidor.
 Na pasta models está presente todos os modelos necessários para executar a solução, sendo dois executáveis via PYTHON, sendo eles: o cliente "medidor.py", usuario "usuario.py" e o servidor "servidor.py", .
 
 # Como executar 
