@@ -8,8 +8,11 @@ Repositório dedicado ao problema 1 da disciplina de Concorrência e Conectivida
 PYTHON ou DOCKER
 
 # Docker
-1. O servidor pode ser executado como imagem docker ultizando o comando docker run -p 5000:5000 -v \endereço_onde_está_salvo_o_arquivo_.json_para_persistencia_de_dados/db.json:/local_dentro_do_container/db.json nome_do_repositorio:nome_da_imagem
-2. O medidor pode ser executado como imagem docker ultilizando o comando docker run --it --net=host nome_do_repositorio:nome_da_imagem
+1. Repoitorio no dockerhub: https://hub.docker.com/repository/docker/khaiioy/pbl1/general
+2. A imagem docker pode ser criada diretamente pelo dockerfile que se encontra dentro da pasta models
+3. O servidor pode ser executado como imagem docker ultizando o comando docker run -p 5000:5000 -v \endereço_onde_está_salvo_o_arquivo_.json_para_persistencia_de_dados/db.json:/local_dentro_do_container/db.json nome_do_repositorio:nome_da_imagem
+4. O medidor pode ser executado como imagem docker ultilizando o comando docker run --it --net=host nome_do_repositorio:nome_da_imagem
+5. O servidor e os medidores podem ser simplesmente iniciados via portainer via imagem docker
 
 # Organização das pastas
 A solução está organizada em 1 pastas e dois arquivos, com o Diagrama de Sequência básico da arquitetura.
@@ -42,3 +45,10 @@ O script começa importando algumas bibliotecas Python e definindo algumas const
 Então verifica se o client_id já existe no arquivo JSON que armazena os dados do medidor. Se sim, ele carrega o histórico de consumo a partir do arquivo JSON. Se não, ele cria uma lista vazia para o histórico de consumo. Em seguida, o script entra em um loop infinito que executa o monitor de energia.
 Dentro do loop, o script aguarda a entrada do usuário para ajustar o incremento. Em seguida, o script gera um consumo atual aleatório em kWh, calcula o consumo do período atual usando a função increment, adiciona o consumo atual ao consumo total, gera uma fatura com base no consumo total e no valor do kWh e adiciona o consumo atual ao histórico de consumo. O script também verifica se o consumo está acima do limite de alerta definido e gera um alerta se necessário.
 Por fim, o script cria um payload com os dados a serem enviados ao servidor, converte o payload em uma string JSON, cria um socket e envia a mensagem para o servidor. O script aguarda dez segundos antes de medir novamente.
+
+
+# Funcionamento do usuario.py
+Este código implementa um cliente que envia uma solicitação HTTP GET para um servidor e recebe uma resposta JSON. Em seguida, ele exibe um menu que permite que o usuário visualize diferentes dados do JSON.
+Para executar este código, você precisa primeiro executar o servidor que está fornecendo os dados JSON. Além disso, você precisa garantir que o servidor esteja executando na porta e no host especificados no código.
+Quando você executa o código, ele solicita que você digite um ID. Isso é usado para fazer a solicitação HTTP GET para o servidor. Se a resposta contiver dados JSON válidos, o código exibe o menu e aguarda a entrada do usuário. O usuário pode digitar um número correspondente à opção de menu desejada. Dependendo da opção selecionada, o código exibe diferentes dados do JSON.
+Para sair do programa, o usuário pode digitar "0" quando solicitado a digitar uma opção de menu.
